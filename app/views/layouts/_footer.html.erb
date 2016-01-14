@@ -1,9 +1,29 @@
-Footer
-	Contact
-	FAQ
-	About
-	Privacy Policy
-	Safety & Community Guidelines
-	Terms of Service
-	Facebook
-	Twitter
+<div class="row">
+	<div class="col-md-12">
+		<!-- Footer -->
+		<footer class="navbar navbar-default navbar-bottom">
+			<div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		          <span class="sr-only">Toggle navigation</span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
+		      </button>
+		    </div>
+		    <div id="navbar" class="navbar-collapse collapse">
+		      <ul class="nav navbar-nav">
+		        <li><%= link_to 'Contact', contact_path %></li>
+		        <li><%= link_to 'FAQ', faq_path %></li>
+		        <li><%= link_to 'About', about_path %></li>
+		        <li><%= link_to 'Privacy Policy', privacy_path %></li>
+		        <li><%= link_to 'Safety & Community Guidelines', safety_path %></li>
+		        <li><%= link_to 'Terms of Service', terms_path %></li>
+		        <li><a href="https://www.facebook.com/timeswappers/" target="_blank">Facebook</a></li>
+		        <li><a href="https://twitter.com/TimeSwappers" target="_blank">Twitter</a></li>
+		      </ul>
+		    </div><!--/.nav-collapse -->
+		  </div>
+		</footer>
+	</div>
+</div>
