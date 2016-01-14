@@ -29,6 +29,10 @@ body {
 	text-align: center;
 }
 
+.offer, .safety {
+	padding: 25px;
+}
+
 .btn-primary {
 	background-color: #38b44a;
 	border-color: #28c53f;
@@ -50,11 +54,21 @@ body {
 	margin: 20px 20px 50px 20px;
 }
 
-.offer {
-	text-align: center;
-	padding: 25px;
-}
-
 .five-star {
 	width: 100%;
 }
+
+.policy-list {
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-weight: 200;
+}
+
+.navbar-footer {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }

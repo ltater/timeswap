@@ -1,9 +1,48 @@
-<!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Safety Page</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
+<% provide(:title, 'Safety Guidelines') %>
+
+<div class="jumbotron">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Safety and Community Guidelines</h1>
+			<p>At TimeSwappers, we take safe TimeSwapping seriously.</p>
+			<p>We work hard to create and maintain a community of members who are helpful and trustworthy. Mutual accountability, member-sourced reviews and feedback are a core part of how we all improve the TimeSwapping experience.</p>
+			<p>TimeSwappers who consistently receive poor reviews or violate our Terms of Service may lose their membership in the TimeSwappers community.</p>
+			<p>If you have any concerns, share them by confidentially reporting negative experiences or safety issues to: <%= mail_to "help@timeswappers.com", "help@timeswappers.com" %>.</p>
+		</div>
+	</div>
+
+	<hr />
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-4 safety">
+					<h3>Trust Your Judgement</h3>
+					<p>If anything seems unsafe for any reason, walk away. Trust your instincts and alert our safety team if you encounter a bad actor. Your peace of mind comes first.</p>
+				</div>
+				<div class="col-md-4 safety">
+					<h3>Talk on TimeSwappers</h3>
+					<p>Don’t give out your phone number or your email address. It's easy to use the secure TimeSwappers messaging system to communicate until you're ready to swap.</p>
+				</div>
+				<div class="col-md-4 safety">
+					<h3>Set Clear Expectations</h3>
+					<p>Confirm the details and expected outcome of a TimeSwap before you book it. Agree in advance on the amount of time being swapped and payment of any project costs.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 safety">
+					<h3>Check Member Profiles</h3>
+					<p>Check out member profiles and photos of completed projects. Read what members say about themselves and what other members have said about them.</p>
+				</div>
+				<div class="col-md-4 safety">
+					<h3>Ask For License Details</h3>
+					<p>If you are looking for help in a licensed profession, ask for a license number. If a project involves driving, verify license, registration and proof of insurance.</p>
+				</div>
+				<div class="col-md-4 safety">
+					<h3>Leave Feedback</h3>
+					<p>Let other TimeSwappers know about your experiences with the people you meet. Everyone benefits when members leave honest and clear reviews about each other.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
