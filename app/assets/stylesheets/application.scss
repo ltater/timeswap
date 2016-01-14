@@ -25,13 +25,7 @@ body {
 	margin-top: 75px;
 }
 
-
-
-.hero {
-	text-align: center;
-}
-
-.center-button {
+.hero, .center-button, .offer {
 	text-align: center;
 }
 
@@ -43,6 +37,19 @@ body {
     text-align: center;
 }
 
+.img-circle {
+	border-radius: 50%;
+}
+
 .what-is-ts {
 	margin: 20px 20px 50px 20px;
+}
+
+.offer {
+	text-align: center;
+	padding: 25px;
+}
+
+.five-star {
+	width: 100%;
 }
