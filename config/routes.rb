@@ -9,6 +9,19 @@ Rails.application.routes.draw do
   get 'safety' => 'static_pages#safety'
   get 'terms' => 'static_pages#terms'
 
+  get 'thankyou_signup' => 'static_pages#thankyou_signup'
+  get 'thankyou_logout' => 'static_pages#thankyou_logout'
+  get 'thankyou_login' => 'static_pages#thankyou_login'
+
+  # User Routes
+  get 'signup' => 'users#new'
+  resources :users
+
+  # Login/Logout Routes
+  get 'login' => 'sessions#new'
+  #post 'login' => 'sessions#create'
+  #delete 'login' => 'sessions#destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

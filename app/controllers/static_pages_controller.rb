@@ -20,5 +20,14 @@ class StaticPagesController < ApplicationController
 
 	def terms
 	end
+
+	def thankyou_signup
+	end
+
+	def thankyou_logout
+	end
+
+	def thankyou_login
+	end
 	
 end
