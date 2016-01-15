@@ -9,17 +9,17 @@
 			<h3><%= link_to "I want to get help", get_help_gallery_path %></h3>
 			<%= image_tag("placeholders/placeholder-person.jpg") %>
 			<p>Find, collaborate with, and pay an expert.</p>
-	        <p>
-	          	<a class="btn btn-lg btn-primary" href="#" role="button">Get Help &raquo;</a>
-		    </p>
+	        <div class="center-button">
+				<%= link_to "Get Help", get_help_gallery_path, class: "btn btn-lg btn-primary" %>
+			</div>
 		</div>
 		<div class="col-md-6 offer">
 			<h3><%= link_to "I want to give help", give_help_gallery_path %></h3>
 			<%= image_tag("placeholders/placeholder-person.jpg") %>
 			<p>Find projects and earn Time Credits.</p>
-	        <p>
-	          	<a class="btn btn-lg btn-primary" href="#" role="button">Give Help &raquo;</a>
-		    </p>
+	        <div class="center-button">
+				<%= link_to "Give Help", give_help_gallery_path, class: "btn btn-lg btn-primary" %>
+			</div>
 		</div>
 	</div>
 </div>

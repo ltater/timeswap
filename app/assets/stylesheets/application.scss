@@ -38,6 +38,10 @@ body {
 	margin-bottom: 5px;
 }
 
+.form-control[readonly] {
+	background-color: white;
+}
+
 .btn-primary {
 	background-color: #38b44a;
 	border-color: #28c53f;
