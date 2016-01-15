@@ -1,0 +1,81 @@
+<% provide(:title, 'Complete Your Profile') %>
+
+<div class="jumbotron">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>In order to begin swapping, you must complete your profile.</h3>
+
+			<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
+
+			<p>Only your first name, last initial, and zip code will be visible to the public and Timeswapper members.</p>
+		</div>
+	</div>
+
+
+	<%= form_for @user do |f| %>
+	<div class="row">
+		<div class="col-md-6">
+
+			<%= f.label :first_name %>
+			<%= f.text_field :attr, placeholder: "Automatically populated", class: 'form-control' %>
+
+			<%= f.label :email %>
+			<%= f.email_field :attr, placeholder: "Automatically populated", class: 'form-control' %>
+		</div>
+
+		<div class="col-md-6">
+
+			<%= f.label :last_name %>
+			<%= f.text_field :attr, placeholder: "Automatically populated", class: 'form-control' %>
+
+			<%= f.label :zipcode %>
+			<%= f.text_field :attr, placeholder: "Automatically populated", class: 'form-control' %>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6">
+
+			<%= f.label :address1 %>
+			<%= f.text_field :address1, class: 'form-control' %>
+
+			<%= f.label :city %>
+			<%= f.text_field :city, class: 'form-control' %>
+			
+		</div>
+		<div class="col-md-6">
+
+			<%= f.label :address2 %>
+			<%= f.text_field :address2, class: 'form-control' %>
+
+			<%= f.label :state %>
+			<%= f.text_field :state, class: 'form-control' %>
+
+		</div>
+	</div>
+	<% end %>
+	
+	<hr />
+
+	<div class="row">
+		<div class="col-md-12">
+			<h2>UPLOAD YOUR PHOTOGRAPH</h2>
+			<div class="col-md-4">
+				<%= image_tag('placeholders/placeholder-300-square.png') %>
+				<p>
+          			<a class="btn btn-lg btn-primary" href="#" role="button">Browse &raquo;</a>
+	    		</p>
+			</div>
+
+			<div class="col-md-8">
+				<p>TimeSwappers has partnered with BeeHive, a company dedicated to your security.</p>
+				<p><strong>Beehive</strong> lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+				<p>Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+				<div class="center-button">
+					<%= link_to "Continue", thankyou_signup_path %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

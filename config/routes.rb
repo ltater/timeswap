@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
   # User Routes
   get 'signup' => 'users#new'
+  get 'profile' => 'users#edit'
   resources :users
 
   # Login/Logout Routes
