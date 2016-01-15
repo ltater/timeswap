@@ -27,12 +27,12 @@
 		<span class="input-group-addon">
 			<input type="checkbox" aria-label="...">
 		</span>
-		<input type="text" value="I agree to the Safety and Community Guidelines, the Privacy Policy, and the Terms of Service" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+		<input type="text" value="I agree to the Safety and Community Guidelines, the Privacy Policy, and the Terms of Service" class="form-control" id="basic-url" aria-describedby="basic-addon3" readonly>
 	</div>
 
 	<br />
 	
 	<div class="center-button">
-		<%= link_to "Continue", give_or_get_help_path %>
+		<%= link_to "Continue", give_or_get_help_path, class: "btn btn-lg btn-primary" %>
 	</div>
 </div>
