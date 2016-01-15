@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get 'thankyou_logout' => 'static_pages#thankyou_logout'
   get 'thankyou_login' => 'static_pages#thankyou_login'
 
+  get 'give_or_get_help' => 'static_pages#give_or_get_help'
+
   # User Routes
   get 'signup' => 'users#new'
   get 'profile_page_1' => 'users#edit'
