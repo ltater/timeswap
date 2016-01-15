@@ -4,10 +4,15 @@
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
 			
+			<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
+			
 			<%= form_for @user do |f| %>
 
-				<%= f.label :name %>
-				<%= f.text_field :name, class: 'form-control' %>
+				<%= f.label :first_name %>
+				<%= f.text_field :first_name, class: 'form-control' %>
+
+				<%= f.label :last_name %>
+				<%= f.text_field :last_name, class: 'form-control' %>
 
 				<%= f.label :email %>
 				<%= f.email_field :email, class: 'form-control' %>
@@ -16,13 +21,14 @@
 				<%= f.password_field :password, class: 'form-control' %>
 
 				<%= f.label :zipcode %>
-				<%= f.text_field :zipcode, class: 'form-control' %>
+				<%= f.password_field :zipcode, class: 'form-control' %>
+
 			<% end %>
 			
 			<br />
 
 			<div class="center-button">
-				<%= link_to "Become a Member", thankyou_signup_path %>
+				<%= link_to "Become a Member", profile_page_1_path %>
 			</div>
 		</div>
 	</div>
