@@ -16,3 +16,10 @@
 //= require bootstrap-sprockets
 //= require bootstrap
 //= require_tree .
+
+$(function() {
+	console.log("Ready!");
+	
+	$('.dropdown-toggle').dropdown();
+})
+

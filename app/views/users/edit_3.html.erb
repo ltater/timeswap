@@ -1,0 +1,38 @@
+<% provide(:title, 'Complete Your Profile') %>
+
+<div class="jumbotron">
+	<h1>Complete Your Profile</h1>
+	<p>Fill out at least one service you want to buy and one service you want to sell in order to complete your profile.<p>
+	<p>INSERT BREADCRUMBS</p>
+	<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
+
+	<hr />
+
+	<h3><%= link_to "SAFETY & COMMUNITY GUIDELINES", safety_path %></h3>
+	<p>Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+	<hr />
+
+	<h3><%= link_to "PRIVACY POLICY", privacy_path %></h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+	<hr />
+
+	<h3><%= link_to "TERMS OF SERVICE", terms_path %></h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+	<hr >
+
+	<div class="input-group">
+		<span class="input-group-addon">
+			<input type="checkbox" aria-label="...">
+		</span>
+		<input type="text" value="I agree to the Safety and Community Guidelines, the Privacy Policy, and the Terms of Service" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+	</div>
+
+	<br />
+	
+	<div class="center-button">
+		<%= link_to "Continue", profile_page_2_path %>
+	</div>
+</div>

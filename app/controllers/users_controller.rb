@@ -33,6 +33,12 @@ class UsersController < ApplicationController
 		@user = "placeholder"
 	end
 
+	def edit_2
+	end
+
+	def edit_3
+	end
+
 	def update
 		# @user = User.find(params[:id])
 		# if @user.update_attributes(user_params)
