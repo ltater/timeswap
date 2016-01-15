@@ -27,6 +27,27 @@ Rails.application.routes.draw do
   #post 'login' => 'sessions#create'
   #delete 'login' => 'sessions#destroy'
 
+  # Get Help Routes
+  get 'get_help_gallery' => 'get_help#index'
+
+  # Give Help Routes
+  get 'give_help_gallery' => 'give_help#index'
+
+  # Fake Project Routes
+  get 'project_1' => 'fake_projects#project_1'
+  get 'project_2' => 'fake_projects#project_2'
+  get 'project_3' => 'fake_projects#project_3'
+  get 'project_4' => 'fake_projects#project_4'
+  get 'project_5' => 'fake_projects#project_5'
+  get 'project_6' => 'fake_projects#project_6'
+
+  # Fake User Routes
+  get 'profile_1' => 'fake_users#profile_1'
+  get 'profile_2' => 'fake_users#profile_2'
+  get 'profile_3' => 'fake_users#profile_3'
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
