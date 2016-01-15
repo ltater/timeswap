@@ -1,1 +1,49 @@
-project_2.html.erb
+<% provide(:title, "Give Help: Laundry") %>
+
+<div class="jumbotron">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-3 profile-glimpse">
+				<h2>Frank C.</h2>
+				<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
+				<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."</p>
+				<%= link_to "View Frank's Profile", profile_2_path, class: "btn btn-lg btn-primary" %>
+			</div>
+			<div class="col-md-9">
+				<h2>Give Help: Laundry</h2>
+				<h3>Description of Service:</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam libero odio, sollicitudin nec lorem eget, imperdiet egestas mauris. Curabitur convallis pharetra odio, sed scelerisque erat finibus at. Fusce varius nibh massa, at tincidunt magna consequat sed. Ut venenatis arcu eu odio tristique lacinia. Nunc porttitor porttitor dui, et ultricies felis volutpat eget. Nullam a purus vitae odio finibus hendrerit.</p>
+
+				<hr />
+
+				<h3>Additional Information:</h3>
+				<p>Duis at lobortis dolor. Vestibulum vestibulum enim eu elementum facilisis. Integer et feugiat lorem, in imperdiet sapien. Nullam dapibus, sem sed malesuada scelerisque, risus est ullamcorper libero, non faucibus est ligula id quam.</p>
+
+				<hr />
+
+				<div class="center-button">
+			        <p>
+			          	<a class="btn btn-lg btn-primary" href="#" role="button">Ping Frank for Help &raquo;</a>
+				    </p>
+				</div>
+				
+				<!-- <div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Message Colleen About This Project</h3>
+					</div>
+					<div class="panel-body">
+						<textarea class="form-control" aria-describedby="basic-addon3"></textarea>
+						<p>Remember to always <%= link_to "swap smart and swap safe", safety_path %>!</p>
+						<br />
+				        <div class="center-button">
+					        <p>
+					          	<a class="btn btn-lg btn-primary" href="#" role="button">Submit &raquo;</a>
+						    </p>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+</div>

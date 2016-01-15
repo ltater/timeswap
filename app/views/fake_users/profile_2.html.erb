@@ -1,1 +1,124 @@
-profile_2.html.erb
+<% provide(:title, "Frank Profile") %>
+
+<div class="jumbotron">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-3 profile-glimpse">
+				<h2>Frank C.</h2>
+				<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
+				<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."</p>
+			</div>
+			<div class="col-md-9">
+				<h2>About Frank:</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam libero odio, sollicitudin nec lorem eget, imperdiet egestas mauris. Curabitur convallis pharetra odio, sed scelerisque erat finibus at. Fusce varius nibh massa, at tincidunt magna consequat sed. Ut venenatis arcu eu odio tristique lacinia. Nunc porttitor porttitor dui, et ultricies felis volutpat eget. Nullam a purus vitae odio finibus hendrerit.</p>
+
+				<hr />
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-lg-6">
+								<h3>Frank's Projects to Give Help</h3>
+								<div class="list-group">
+									<%= link_to "Laundry", project_2_path, class: "list-group-item list-group-item" %>
+								</div>
+							</div>
+
+							<div class="col-lg-6">
+								<h3>Frank's Projects to Get Help</h3>
+								<ul class="list-group">
+									<li class="list-group-item">German Tutoring</li>
+									<li class="list-group-item">Proofreading</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+			
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Frank's Reviews</h3>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-2 profile-glimpse">
+							<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
+							<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+						</div>
+						
+						<div class="col-md-10">
+							<div class="row">
+								<div class="col-md-10">
+									<h4><%= link_to "Colleen W.", profile_1_path %></h4>
+								</div>
+								<div class="col-md-2">
+									<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet..."</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-2 profile-glimpse">
+							<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
+							<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+						</div>
+						
+						<div class="col-md-10">
+							<div class="row">
+								<div class="col-md-10">
+									<h4>Missy S.</h4>
+								</div>
+								<div class="col-md-2">
+									<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>"Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor..."</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-2 profile-glimpse">
+							<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
+							<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+						</div>
+						
+						<div class="col-md-10">
+							<div class="row">
+								<div class="col-md-10">
+									<h4>Veronika M.</h4>
+								</div>
+								<div class="col-md-2">
+									<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>"Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio..."</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
