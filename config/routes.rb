@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'safety' => 'static_pages#safety'
   get 'terms' => 'static_pages#terms'
 
-  get 'thankyou_signup' => 'static_pages#thankyou_signup'
+  get 'thankyou_ping' => 'static_pages#thankyou_ping'
   get 'thankyou_logout' => 'static_pages#thankyou_logout'
   get 'thankyou_login' => 'static_pages#thankyou_login'
 
