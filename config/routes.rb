@@ -54,6 +54,7 @@ Rails.application.routes.draw do
   get 'project_4' => 'fake_projects#project_4'
   get 'project_5' => 'fake_projects#project_5'
   get 'project_6' => 'fake_projects#project_6'
+  get 'project_messages' => 'fake_projects#project_messages'
 
   # Fake User Routes
   get 'profile_1' => 'fake_users#profile_1'

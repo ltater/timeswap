@@ -1,0 +1,74 @@
+<% provide(:title, 'My Notifications') %>
+
+<div class="row">
+	<div class="col-md-3">
+		<%= render 'layouts/account_navigation' %>
+	</div>
+
+	<div class="col-md-9">
+		<h1>Project Name: Messages</h1>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-2 profile-glimpse">
+					<%= image_tag('profiles/frank.jpg', class: "img-circle") %>
+					<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+				</div>
+				
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-12">
+							<h4><%= link_to "Frank C.", profile_2_path %></h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>"Thank you for your interest in my project!"</p>
+							<p>Nam dictum blandit ex eget egestas. Aliquam sapien augue, bibendum a pellentesque eget, semper at dui. Fusce ut sodales nibh. Maecenas nec venenatis ex, non egestas libero.</p>
+							<p>Donec eget mi vitae dolor bibendum ornare non id mauris. Integer erat odio, tempor ac elit ac, sollicitudin euismod dui. Duis tempus pretium odio, eu euismod ligula. Ut quis pharetra augue, et laoreet lectus.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-2 profile-glimpse">
+					<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
+					<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+				</div>
+
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-12">
+							<h4><%= link_to "Your Name", my_profile_path %></h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>Nam dictum blandit ex eget egestas. Aliquam sapien augue, bibendum a pellentesque eget, semper at dui. Fusce ut sodales nibh. Maecenas nec venenatis ex, non egestas libero.</p>
+							<p>Donec eget mi vitae dolor bibendum ornare non id mauris. Integer erat odio, tempor ac elit ac, sollicitudin euismod dui. Duis tempus pretium odio, eu euismod ligula. Ut quis pharetra augue, et laoreet lectus.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="center-button">
+		        	<%= link_to "Sign Contract", "#", class: "btn btn-lg btn-primary" %> 
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="center-button">
+		        	<%= link_to "Send Message", "#", class: "btn btn-lg btn-primary" %> 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -17,5 +17,8 @@ class FakeProjectsController < ApplicationController
 
 	def project_6
 	end
+
+	def project_messages
+	end
 	
 end

@@ -21,5 +21,8 @@ $(function() {
 	console.log("Ready!");
 	
 	$('.dropdown-toggle').dropdown();
-})
 
+	$('#myModal').on('shown.bs.modal', function () {
+  		$('#myModal').modal('show');
+	});
+});
