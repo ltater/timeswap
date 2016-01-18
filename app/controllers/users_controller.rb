@@ -49,6 +49,16 @@ class UsersController < ApplicationController
 		# end
 	end
 
+	def my_projects
+	end
+
+	def edit_my_profile
+		@user = 'placeholder'
+	end
+
+	def delete_my_profile
+	end
+
 	def destroy
 		# User.find(params[:id]).destroy
 		# flash[:success] = "User deleted"

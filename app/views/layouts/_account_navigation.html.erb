@@ -5,14 +5,16 @@
 			<li role="presentation"><%= link_to "Give Help Gallery", give_help_gallery_path %></li>
 			<li><hr /></li>
 			<li role="presentation"><a href="#">Notifications</a></li>
-			<li role="presentation"><a href="#">Post Project: Get Help</a></li>
-			<li role="presentation"><a href="#">Post Project: Give Help</a></li>
+			<li role="presentation"><%= link_to "My Projects", my_projects_path %><li>
+			<li role="presentation"><%= link_to "Post a Project: Get Help", get_help_new_project_path %></li>
+			<li role="presentation"><%= link_to "Post a Project: Give Help", give_help_new_project_path %></li>
 			<li role="presentation"><a href="#">My Favorite Projects</a></li>
 			<li role="presentation"><a href="#">My Bank</a></li>
 			<li role="presentation"><a href="#">My Transactions</a></li>
 			<li><hr /></li>
-			<li role="presentation"><a href="#">Update Profile</a></li>
-			<li role="presentation"><a href="#">Delete Account</a></li>
+			<li role="presentation"><%= link_to "My Profile", my_profile_path %></li>
+			<li role="presentation"><%= link_to "Edit My Profile", edit_my_profile_path %></li>
+			<li role="presentation"><%= link_to "Delete My Profile", delete_my_profile_path %></li>
 		</ul>
 	</nav>
 </div>
