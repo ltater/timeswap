@@ -1,0 +1,19 @@
+<% provide(:title, 'Delete My Profile') %>
+
+<div class="row">
+	<div class="col-md-3">
+		<%= render 'layouts/account_navigation' %>
+	</div>
+
+	<div class="col-md-9">
+		<div class="jumbotron">
+			<h1>Delete My Profile</h1>
+			<p>Are you sure that you want to delete your profile?</p>
+
+			<div class="center-button">
+				<%= link_to "Yes", root_path, class: "btn btn-lg btn-primary" %>
+				<%= link_to "No", my_profile_path, class: "btn btn-lg btn-primary" %>
+			</div>
+		</div>
+	</div>
+</div>

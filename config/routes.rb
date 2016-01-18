@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'safety' => 'static_pages#safety'
   get 'terms' => 'static_pages#terms'
 
-  get 'thankyou_signup' => 'static_pages#thankyou_signup'
+  get 'thankyou_ping' => 'static_pages#thankyou_ping'
   get 'thankyou_logout' => 'static_pages#thankyou_logout'
   get 'thankyou_login' => 'static_pages#thankyou_login'
 
@@ -20,6 +20,10 @@ Rails.application.routes.draw do
   get 'profile_page_1' => 'users#edit'
   get 'profile_page_2' => 'users#edit_2'
   get 'profile_page_3' => 'users#edit_3'
+  get 'my_profile' => 'users#show'
+  get 'my_projects' => 'users#my_projects'
+  get 'edit_my_profile' => 'users#edit_my_profile'
+  get 'delete_my_profile' => 'users#delete_my_profile'
   resources :users
 
   # Login/Logout Routes
@@ -29,9 +33,17 @@ Rails.application.routes.draw do
 
   # Get Help Routes
   get 'get_help_gallery' => 'get_help#index'
+  get 'get_help_new_project' => 'get_help#new'
+  get 'get_help_show_project' => 'get_help#show'
+  get 'get_help_edit_project' => 'get_help#edit'
+  get 'get_help_archive_project' => 'get_help#archive'
 
   # Give Help Routes
   get 'give_help_gallery' => 'give_help#index'
+  get 'give_help_new_project' => 'give_help#new'
+  get 'give_help_show_project' => 'give_help#show'
+  get 'give_help_edit_project' => 'give_help#edit'
+  get 'give_help_archive_project' => 'give_help#archive'
 
   # Fake Project Routes
   get 'project_1' => 'fake_projects#project_1'

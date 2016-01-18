@@ -1,49 +1,49 @@
 <% provide(:title, "Get Help: German Tutoring") %>
 
-<div class="jumbotron">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="col-md-3 profile-glimpse">
-				<h2>Colleen W.</h2>
-				<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
-				<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."</p>
-				<%= link_to "View Colleen's Profile", profile_1_path, class: "btn btn-lg btn-primary" %>
+<div class="row">
+	<div class="col-md-3">
+		<%= render 'layouts/account_navigation' %>
+	</div>
+
+	<div class="col-md-9">
+		<div class="col-md-3 profile-glimpse">
+			<h2>Colleen W.</h2>
+			<%= image_tag('profiles/colleen.jpg', class: "img-circle") %>
+			<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."</p>
+			<%= link_to "View Colleen's Profile", profile_1_path, class: "btn btn-lg btn-primary" %>
+		</div>
+		<div class="col-md-9">
+			<h2>Get Help: German Tutoring</h2>
+			<h3>Description of Service:</h3>
+			<p>I teach German, from beginner's level to advanced. I begin with vocabulary and phrases, and teach in context. Writing and reading German begins at the intermediate level. I am a great accent coach, and because I lived in Germany for a year, I am confident I can teach you relevant, everyday German. I also know a lot about the cultural nuances. Looking forward to connecting with you and seeing if we can swap.</p>
+
+			<hr />
+
+			<h3>Additional Information:</h3>
+			<p>I am available to teach on Thursdays from 12pm-1pm and Saturdays from 2pm-3pm or 4pm-5pm.</p>
+
+			<hr />
+
+			<div class="center-button">
+		        <%= link_to "Ping Colleen for Help", thankyou_ping_path, class: "btn btn-lg btn-primary" %> 
 			</div>
-			<div class="col-md-9">
-				<h2>Get Help: German Tutoring</h2>
-				<h3>Description of Service:</h3>
-				<p>I teach German, from beginner's level to advanced. I begin with vocabulary and phrases, and teach in context. Writing and reading German begins at the intermediate level. I am a great accent coach, and because I lived in Germany for a year, I am confident I can teach you relevant, everyday German. I also know a lot about the cultural nuances. Looking forward to connecting with you and seeing if we can swap.</p>
-
-				<hr />
-
-				<h3>Additional Information:</h3>
-				<p>I am available to teach on Thursdays from 12pm-1pm and Saturdays from 2pm-3pm or 4pm-5pm.</p>
-
-				<hr />
-
-				<div class="center-button">
-			        <p>
-			          	<a class="btn btn-lg btn-primary" href="#" role="button">Ping Colleen for Help &raquo;</a>
-				    </p>
+			
+			<!-- <div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Message Colleen About This Project</h3>
 				</div>
-				
-				<!-- <div class="panel panel-primary">
-					<div class="panel-heading">
-						<h3 class="panel-title">Message Colleen About This Project</h3>
+				<div class="panel-body">
+					<textarea class="form-control" aria-describedby="basic-addon3"></textarea>
+					<p>Remember to always <%= link_to "swap smart and swap safe", safety_path %>!</p>
+					<br />
+			        <div class="center-button">
+				        <p>
+				          	<a class="btn btn-lg btn-primary" href="#" role="button">Submit &raquo;</a>
+					    </p>
 					</div>
-					<div class="panel-body">
-						<textarea class="form-control" aria-describedby="basic-addon3"></textarea>
-						<p>Remember to always <%= link_to "swap smart and swap safe", safety_path %>!</p>
-						<br />
-				        <div class="center-button">
-					        <p>
-					          	<a class="btn btn-lg btn-primary" href="#" role="button">Submit &raquo;</a>
-						    </p>
-						</div>
-					</div>
-				</div> -->
-			</div>
+				</div>
+			</div> -->
 		</div>
 	</div>
 </div>
