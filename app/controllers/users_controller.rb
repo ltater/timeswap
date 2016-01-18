@@ -59,6 +59,12 @@ class UsersController < ApplicationController
 	def delete_my_profile
 	end
 
+	def my_bank
+	end
+
+	def my_notifications
+	end
+
 	def destroy
 		# User.find(params[:id]).destroy
 		# flash[:success] = "User deleted"

@@ -1,6 +1,16 @@
 <% provide(:title, 'Thank You') %>
 
-<div class="jumbotron">
+<div class="row">
+	<div class="col-md-3">
+		<%= render 'layouts/account_navigation' %>
+	</div>
+
+	<div class="col-md-9">
 	<h1>Thank You</h1>
-	<p>Thank you for your interest in this project. The project owner has received your notification.</p>
+	<p>Thank you for your interest in this project. The project owner has received your notification. You can view the status of this project on your My Projects page.</p>
+	<hr />
+	<div class="center-button">
+		<%= link_to "Go to My Projects", my_projects_path, class: "btn btn-lg btn-primary" %>
+		
+	</div>
 </div>

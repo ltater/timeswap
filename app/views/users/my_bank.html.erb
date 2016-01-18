@@ -1,4 +1,4 @@
-<% provide(:title, 'My Projects') %>
+<% provide(:title, 'My Time Bank') %>
 
 <div class="row">
 	<div class="col-md-3">
@@ -6,10 +6,21 @@
 	</div>
 
 	<div class="col-md-9">
-		<h1>My Projects</h1>
+		<h1>My Time Bank</h1>
+		<ul class="list-group">
+			<li class="list-group-item">
+				<span class="badge">14.25</span>
+				Time Credits Earned
+			</li>
+			<li class="list-group-item">
+				<span class="badge">6.00</span>
+				Time Credits Spent
+			</li>
+		</ul>
+
 		<div class="panel panel-primary">
 		<!-- Default panel contents -->
-			<div class="panel-heading">Pending Projects</div>
+			<div class="panel-heading">Transactions</div>
 				<!-- Table -->
 			<table class="table">
 				<tr>
@@ -34,27 +45,6 @@
 					<td>12/18/15</td>
 				</tr>
 			</table>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-lg-6">
-						<h3>My Projects to Give Help</h3>
-						<div class="list-group">
-							<%= link_to "German Tutoring", give_help_show_project_path, class: "list-group-item list-group-item" %>
-						</div>
-					</div>
-
-					<div class="col-lg-6">
-						<h3>My Projects to Get Help</h3>
-						<div class="list-group">
-							<%= link_to "Laundry", get_help_show_project_path, class: "list-group-item list-group-item" %>
-							<%= link_to "Proofreading", get_help_show_project_path, class: "list-group-item list-group-item" %>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </div>

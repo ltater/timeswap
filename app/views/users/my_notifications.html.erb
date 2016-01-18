@@ -1,0 +1,74 @@
+<% provide(:title, 'My Notifications') %>
+
+<div class="row">
+	<div class="col-md-3">
+		<%= render 'layouts/account_navigation' %>
+	</div>
+
+	<div class="col-md-9">
+		<h1>My Notifications</h1>
+		<div class="panel panel-primary">
+		<!-- Default panel contents -->
+			<div class="panel-heading">Projects to Give Help</div>
+				<!-- Table -->
+			<table class="table">
+				<tr>
+					<td class="transactin-heading"></td>
+					<td class="transaction-heading">Project Name</td>
+					<td class="transaction-heading">Project Owner</td>
+					<td class="transaction-heading">Time Credits</td>
+					<td class="transaction-heading">Date</td>
+					<td class="transaction-heading">Actions</td>
+				</tr>
+				<tr>
+					<td><span class="label label-success">New Message!</span></td>
+					<td>German Tutoring</td>
+					<td>Colleen W.</td>
+					<td>1.00</td>
+					<td>12/15/15</td>
+					<td><span class="label label-success">View</span> <span class="label label-danger">Delete</span></td>
+				</tr>
+				<tr>
+					<td><span class="label label-danger">Pending</span></td>
+					<td>Laundry</td>
+					<td>Frank C.</td>
+					<td>2.00</td>
+					<td>12/15/15</td>
+					<td><span class="label label-success">View</span> <span class="label label-danger">Delete</span></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="panel panel-primary">
+		<!-- Default panel contents -->
+			<div class="panel-heading">Projects to Get Help</div>
+				<!-- Table -->
+			<table class="table">
+				<tr>
+					<td class="transactin-heading"></td>
+					<td class="transaction-heading">Project Name</td>
+					<td class="transaction-heading">Project Owner</td>
+					<td class="transaction-heading">Time Credits</td>
+					<td class="transaction-heading">Date</td>
+					<td class="transaction-heading">Actions</td>
+				</tr>
+				<tr>
+					<td><span class="label label-success">New Message!</span></td>
+					<td>Lawn Mowing</td>
+					<td>Colleen W.</td>
+					<td><span style="color: red;">(-1.00)</span></td>
+					<td>12/15/15</td>
+					<td><span class="label label-success">View</span> <span class="label label-danger">Delete</span></td>
+				</tr>
+				<tr>
+					<td><span class="label label-danger">Pending</span></td>
+					<td>Proofreading</td>
+					<td>Frank C.</td>
+					<td><span style="color: red;">(-2.00)</span></td>
+					<td>12/15/15</td>
+					<td><span class="label label-success">View</span> <span class="label label-danger">Delete</span></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
