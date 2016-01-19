@@ -1,34 +1,36 @@
 <% provide(:title, 'Sign Up') %>
 
-<div class="jumbotron">
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-			
-			<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
-			
-			<%= form_for @user do |f| %>
+<div class="container-static">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h1>Sign Up for TimeSwappers</h1>
+				<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
+				
+				<%= form_for @user do |f| %>
 
-				<%= f.label :first_name %>
-				<%= f.text_field :first_name, class: 'form-control' %>
+					<%= f.label :first_name %>
+					<%= f.text_field :first_name, class: 'form-control' %>
 
-				<%= f.label :last_name %>
-				<%= f.text_field :last_name, class: 'form-control' %>
+					<%= f.label :last_name %>
+					<%= f.text_field :last_name, class: 'form-control' %>
 
-				<%= f.label :email %>
-				<%= f.email_field :email, class: 'form-control' %>
+					<%= f.label :email %>
+					<%= f.email_field :email, class: 'form-control' %>
 
-				<%= f.label :password %>
-				<%= f.password_field :password, class: 'form-control' %>
+					<%= f.label :password %>
+					<%= f.password_field :password, class: 'form-control' %>
 
-				<%= f.label :zipcode %>
-				<%= f.password_field :zipcode, class: 'form-control' %>
+					<%= f.label :zipcode %>
+					<%= f.password_field :zipcode, class: 'form-control' %>
 
-			<% end %>
-			
-			<br />
+				<% end %>
+				
+				<br />
 
-			<div class="center-button">
-				<%= link_to "Become a Member", profile_page_1_path, class: "btn btn-lg btn-primary" %>
+				<div class="center-button">
+					<%= link_to "Become a Member", profile_page_1_path, class: "btn btn-lg btn-primary" %>
+				</div>
 			</div>
 		</div>
 	</div>
