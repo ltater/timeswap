@@ -22,8 +22,8 @@
 }
 
 body {
-	margin-top: 75px;
 	margin-bottom: 75px;
+	font-family: Raleway;
 }
 
 .hero, .center-button, .offer, .profile-glimpse {
@@ -110,4 +110,81 @@ body {
 
 .transaction-heading {
 	font-weight: bold;
+}
+
+/* Begin Thumbtack Styles */
+.hero-background {
+	background-image: url("placeholders/background-img.jpg");
+	background-size: cover;
+	height: 85vh;
+	min-height: 400px;
+	text-align: center;
+	align-items: center;
+}
+
+.hero-background, .wrapper {
+	padding-top: 140px;
+	padding-bottom: 140px;
+	width: 100%;
+}
+
+.wrapper {
+	width: 950px;
+	margin: 0 auto;
+    position: relative;
+}
+
+.dynamic-row {
+	color: white;
+	position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.box-content {
+	padding: 25px;
+}
+
+.hero-navigation {
+	width: 100%;
+	padding-top: 15px;
+	border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    height: 41px;
+}
+
+.hero-navigation-li {
+	border-right: 1px solid #ebebeb;
+    text-transform: uppercase;
+    font-size: 11.9px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* End Thumbtack Styles */
+
+.below-hero {
+	margin-top: 25px;
+}
+
+.full-length-divider {
+	background-color: #ebebeb;
+	text-align: center;
+	align-items: center;
+	border: 1px solid #ebebeb;
+}
+
+.dynamic-row-divider {
+	color: black;
 }

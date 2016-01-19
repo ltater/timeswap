@@ -1,28 +1,21 @@
 <% provide(:title, 'Home') %>
 
-<div class="jumbotron hero">
-	<div class="row" id="start">
-		<div class="col-md-12">
-			<h1>Welcome to the Time Economy</h1>
-			<p>Swap a little spare time for the services that you want.</p>
-			<p>
-				<a class="btn btn-lg btn-primary" href="#" role="button">Begin Swapping &raquo;</a>
-			</p>
-		</div>
-	</div>
-</div>
 
-<div class="row" id="what">
-	<div class="col-md-12">
-    	<div class="jumbotron">
-	        <h1>What is TimeSwappers?</h1>
-	        <p>It's simple to connect with members so you don't have to beg a friend for help, do-it-yourself, or go without.</p>
-			<div class="row">
-				<div class="col-md-12">
-			        <div class="center-button">
-				        <p>
-				          	<a class="btn btn-lg btn-primary" href="#" role="button">Begin Swapping &raquo;</a>
-					    </p>
+<div class="row" id="start">
+	<div class="col-md-12 hero-background">
+		<div class="wrapper">
+			<div class="dynamic-row">
+				<div class="copy">
+					<h1>Welcome to the Time Economy</h1>
+				</div>
+				<div class="form-area">
+					<div class="box">
+						<div class="box-header">
+							<h3>Swap a little spare time for the services that you want.</h3>
+						</div>
+						<div class="box-content">
+							<%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -30,9 +23,22 @@
 	</div>
 </div>
 
-<div class="row" id="how">
-	<div class="col-md-12">
-    	<div class="jumbotron">
+<div class="row">
+	<div class="col-md-12 hero-navigation">
+		<ul class="navigation-row">
+			<li class="hero-navigation-li">Home</li>
+			<li class="hero-navigation-li">Events</li>
+			<li class="hero-navigation-li">Lessons</li>
+			<li class="hero-navigation-li">Wellness</li>
+			<li class="hero-navigation-li">More</li>
+		</ul>
+	</div>
+</div>
+
+
+<div class="container" id="how">
+	<div class="row below-hero">
+		<div class="col-md-12">
 	        <h1>How to TimeSwap</h1>
 	        <p>It's simple to connect with members so you don't have to beg a friend for help, do-it-yourself, or go without.</p>
 
@@ -49,12 +55,12 @@
 				    </div>
 
 				    <div class="row what-is-ts">
-				    	<div class="col-md-4">
-							<h3>Step 2: SPEND</h3>
-							<p>time credits and Get The Help You Want when you get help from TimeSwappers who have a knack for the skills you lack.</p>
-						</div>
 						<div class="col-md-8">
 							<div class="placeholder"></div>
+						</div>
+						<div class="col-md-4">
+							<h3>Step 2: SPEND</h3>
+							<p>time credits and Get The Help You Want when you get help from TimeSwappers who have a knack for the skills you lack.</p>
 						</div>
 					</div>
 
@@ -68,19 +74,40 @@
 			        	</div>
 			        </div>
 				    <div class="center-button">
-				        <p>
-				        	<a class="btn btn-lg btn-primary" href="#" role="button">Begin Swapping &raquo;</a>
-				        </p>
+				        <%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
 				    </div>
 				</div>
 			</div>
-      	</div>
-  	</div>
+	  	</div>
+	</div>
 </div>
 
-<div class="row" id="see">
-	<div class="col-md-12">
-    	<div class="jumbotron">
+<!-- Full Length -->
+<div class="row below-hero" id="what">
+	<div class="col-md-12 full-length-divider">
+		<div class="wrapper">
+			<div class="dynamic-row-divider">
+				<div class="copy">
+					<h1>What is TimeSwappers?</h1>
+				</div>
+				<div class="form-area">
+					<div class="box">
+						<div class="box-header">
+							<h3>It's simple to connect with members so you don't have to beg a friend for help, do-it-yourself, or go without.</h3>
+						</div>
+						<div class="box-content">
+							<%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="see">
+	<div class="row below-hero">
+		<div class="col-md-12">
 	        <h1>See it in Action</h1>
 	        <p>Use time as your currency and you'll save money on many of the services that you already pay for.</p>
 
@@ -116,20 +143,29 @@
     				</div>
 	        	</div>
 	        </div>
-      	</div>
-  	</div>
+	  	</div>
+	</div>
 </div>
 
-<div class="row" id="safe">
-	<div class="col-md-12">
-    	<div class="jumbotron">
-	        <h1>Safe Swapping</h1>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-	        <div class="center-button">
-		        <p>
-		        	<a class="btn btn-lg btn-primary" href="#" role="button">Begin Swapping &raquo;</a>
-		        </p>
-		    </div>
-      	</div>
-  	</div>
+<!-- Full Length -->
+<div class="row below-hero" id="safe">
+	<div class="col-md-12 full-length-divider">
+		<div class="wrapper">
+			<div class="dynamic-row-divider">
+				<div class="copy">
+					<h1>Safe Swapping</h1>
+				</div>
+				<div class="form-area">
+					<div class="box">
+						<div class="box-header">
+							<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</h3>
+						</div>
+						<div class="box-content">
+							<%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
