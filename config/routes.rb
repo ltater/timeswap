@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   get 'thankyou_ping' => 'static_pages#thankyou_ping'
   get 'thankyou_logout' => 'static_pages#thankyou_logout'
-  get 'thankyou_login' => 'static_pages#thankyou_login'
+  get 'thankyou_contract' => 'static_pages#thankyou_contract'
 
   get 'give_or_get_help' => 'static_pages#give_or_get_help'
 
@@ -55,6 +55,9 @@ Rails.application.routes.draw do
   get 'project_5' => 'fake_projects#project_5'
   get 'project_6' => 'fake_projects#project_6'
   get 'project_messages' => 'fake_projects#project_messages'
+  get 'project_contract' => 'fake_projects#project_contract'
+  get 'project_signed' => 'fake_projects#project_signed'
+  get 'submit_review' => 'fake_projects#submit_review'
 
   # Fake User Routes
   get 'profile_1' => 'fake_users#profile_1'

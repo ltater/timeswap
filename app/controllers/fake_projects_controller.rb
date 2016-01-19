@@ -20,5 +20,14 @@ class FakeProjectsController < ApplicationController
 
 	def project_messages
 	end
+
+	def project_contract
+	end
+
+	def project_signed
+	end
+
+	def submit_review
+	end
 	
 end

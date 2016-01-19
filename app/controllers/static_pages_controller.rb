@@ -27,7 +27,7 @@ class StaticPagesController < ApplicationController
 	def thankyou_logout
 	end
 
-	def thankyou_login
+	def thankyou_contract
 	end
 
 	def give_or_get_help
