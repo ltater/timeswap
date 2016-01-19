@@ -22,7 +22,13 @@ $(function() {
 	
 	$('.dropdown-toggle').dropdown();
 
-	$('#myModal').on('shown.bs.modal', function () {
-  		$('#myModal').modal('show');
-	});
+	$('#get-help').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	})
+
+	$('#give-help').click(function (e) {
+	  e.preventDefault();
+	  $(this).tab('show');
+	})
 });
