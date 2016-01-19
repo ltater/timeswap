@@ -1,23 +1,45 @@
 <% provide(:title, 'Terms of Service') %>
 
-<div class="jumbotron">
+<div class="row">
+	<div class="col-md-12 hero-background">
+		<div class="wrapper">
+			<div class="dynamic-row">
+				<div class="copy">
+					<h1>Welcome to the Time Economy</h1>
+				</div>
+				<div class="form-area">
+					<div class="box">
+						<div class="box-header">
+							<h3>Swap a little spare time for the services that you want.</h3>
+						</div>
+						<div class="box-content">
+							<%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='container'>
 	<h1>Terms of Service</h1>
 	<p>PLEASE READ THESE TERMS OF USE CAREFULLY. BY REGISTERING FOR AN ACCOUNT OR BY ACCESSING OR USING THE SERVICES, YOU AGREE TO BE BOUND BY THESE TERMS OF USE AND ALL TERMS INCORPORATED BY REFERENCE. IF YOU DO NOT AGREE TO ALL OF THESE TERMS, DO NOT ACCESS OR USE THE SERVICES.</p>
 
 	<ol>
-		<li class="policy-list">I understand and agree that TimeSwappers will conduct an identity verification check based on the information and photo I provide when applying for membership.</li>
-		<li class="policy-list">I understand and agree that members of TimeSwappers provide Services to the best of their ability and do not guarantee their work.</li>
-		<li class="policy-list">I understand and agree that neither TimeSwappers, nor any of its employees, representatives or agents guarantees, or is in any way responsible for, the work provided by any of its members.</li>
-		<li class="policy-list">I understand and agree that expenses which may occur for any materials used as part of a TimeSwappers exchange will be paid by the member receiving Services.</li>
-		<li class="policy-list">I understand and agree to only exchange lawful Services or goods through the TimeSwappers marketplace.</li>
-		<li class="policy-list">I understand and agree that TimeSwappers cannot be held responsible for any injury to persons or damage to property experienced as a result of any service provided or received through the TimeSwappers marketplace.</li>
-		<li class="policy-list">I understand and agree to hold TimeSwappers, as well as its employees and/or agents, harmless from any and all claims or liabilities for any activities performed by any member of TimeSwappers.</li>
-		<li class="policy-list">I understand and agree to take responsibility for any accident or injuries that I might suffer while on property owned or rented by any TimeSwappers member and waive any claim against that member, TimeSwappers and its employees or agents.</li>
-		<li class="policy-list">I assume complete responsibility for the supervision and safety of my family members, including children, and take responsibility for any damage or accident in which my family members may be involved during TimeSwappers exchanges.</li>
-		<li class="policy-list">I understand and agree that there will be immediate termination of membership of any member who harasses, harms, or interferes with any other TimeSwappers member.</li>
-		<li class="policy-list">I understand and agree that if I use my personal vehicle in rendering service through the TimeSwappers marketplace I will, in accordance with state and local laws, be a legally licensed US driver and keep in effect a current vehicle registration and automobile liability insurance covering at least the state minimum required bodily injury and property damage.</li>
-		<li class="policy-list">I pledge not to reveal the contents of the TimeSwappers service website, nor any other documentation provided by my local time bank to non-members, especially any personal information provided. I will not reveal the password for my TimeSwappers account to non- members, and will use reasonable care to protect the password.</li>
-		<li class="policy-list">I understand and agree that TimeSwappers is not an employment service and Company does not serve as an employer of any member. As such, TimeSwappers will not be liable for any tax or withholding, including but not limited to unemployment insurance, employer’s liability, social security or payroll withholding tax in connection with your use of member’s Services.</li>
+		<li>I understand and agree that TimeSwappers will conduct an identity verification check based on the information and photo I provide when applying for membership.</li>
+		<li>I understand and agree that members of TimeSwappers provide Services to the best of their ability and do not guarantee their work.</li>
+		<li>I understand and agree that neither TimeSwappers, nor any of its employees, representatives or agents guarantees, or is in any way responsible for, the work provided by any of its members.</li>
+		<li>I understand and agree that expenses which may occur for any materials used as part of a TimeSwappers exchange will be paid by the member receiving Services.</li>
+		<li>I understand and agree to only exchange lawful Services or goods through the TimeSwappers marketplace.</li>
+		<li>I understand and agree that TimeSwappers cannot be held responsible for any injury to persons or damage to property experienced as a result of any service provided or received through the TimeSwappers marketplace.</li>
+		<li>I understand and agree to hold TimeSwappers, as well as its employees and/or agents, harmless from any and all claims or liabilities for any activities performed by any member of TimeSwappers.</li>
+		<li>I understand and agree to take responsibility for any accident or injuries that I might suffer while on property owned or rented by any TimeSwappers member and waive any claim against that member, TimeSwappers and its employees or agents.</li>
+		<li>I assume complete responsibility for the supervision and safety of my family members, including children, and take responsibility for any damage or accident in which my family members may be involved during TimeSwappers exchanges.</li>
+		<li>I understand and agree that there will be immediate termination of membership of any member who harasses, harms, or interferes with any other TimeSwappers member.</li>
+		<li>I understand and agree that if I use my personal vehicle in rendering service through the TimeSwappers marketplace I will, in accordance with state and local laws, be a legally licensed US driver and keep in effect a current vehicle registration and automobile liability insurance covering at least the state minimum required bodily injury and property damage.</li>
+		<li>I pledge not to reveal the contents of the TimeSwappers service website, nor any other documentation provided by my local time bank to non-members, especially any personal information provided. I will not reveal the password for my TimeSwappers account to non- members, and will use reasonable care to protect the password.</li>
+		<li>I understand and agree that TimeSwappers is not an employment service and Company does not serve as an employer of any member. As such, TimeSwappers will not be liable for any tax or withholding, including but not limited to unemployment insurance, employer’s liability, social security or payroll withholding tax in connection with your use of member’s Services.</li>
 	</ol>
 
 	<hr />
@@ -50,17 +72,17 @@
 	<p>Member Content Restrictions. You are solely responsible for any Member Content that you submit, post or transmit via our Services. You agree not to post, upload to, transmit, distribute, store, create or otherwise publish through the Services, Member Content that we believe, in our sole discretion:</p>
 
 	<ol>
-		<li class="policy-list">is unlawful, libelous, defamatory, harassing, threatening, invasive of privacy or publicity rights, or that would otherwise create liability or violate any local, state, national or international law;</li>
-		<li class="policy-list">contains nudity, sexually explicit content or is otherwise obscene, pornographic, indecent, lewd, suggestive or sexually exploitative of minors;</li>
-		<li class="policy-list">may disparage any ethnic, racial, sexual or religious group by stereotypical depiction or is otherwise abusive or inflammatory;</li>
-		<li class="policy-list">depicts the use of illicit drugs;</li>
-		<li class="policy-list">contains offensive language or images or is otherwise objectionable;</li>
-		<li class="policy-list">incites violence or characterizes violence as acceptable, glamorous or desirable;</li>
-		<li class="policy-list">contains unsolicited promotions, political campaigning, advertising or solicitations, without our prior written consent;</li>
-		<li class="policy-list">contains private or personal information about another person, unless such person has agreed to the disclosure of this information;</li>
-		<li class="policy-list">contains viruses, corrupted data or other harmful, disruptive or destructive file viruses, cancel bots, Trojan horses, harmful code, flood pings, denial-of-service attacks, packet or IP spoofing, forged routing or electronic mail address information or similar methods or technology;</li>
-		<li class="policy-list">may infringe any patent, trademark, trade secret, copyright or other intellectual or proprietary right of any party. By posting Member Content, you represent and warrant that you have the lawful right to distribute and reproduce such Member Content; or</li>
-		<li class="policy-list">would constitute, encourage or provide instructions for a criminal offense or violate the rights of any third party. TimeSwappers is not responsible for any Member Content that you or other members post, transmit or store through the Services. We have no obligation to post Member Content from you or anyone else and we may, in our sole discretion, edit, remove or delete any Member Content without notice. If you become aware of Member Content that violates these Terms, you may notify of us such content by contacting <%= mail_to "help@timeswappers.com", "help@timeswappers.com" %>. Enforcement of these Terms, however, is solely in our discretion and the absence of enforcement in some instances does not waive of our right to enforce the Terms in other instances. In addition, these Terms do not create a private right of action on the part of any third party or any reasonable expectation that the Services will not contain any content that is prohibited by such rules.</li>
+		<li>is unlawful, libelous, defamatory, harassing, threatening, invasive of privacy or publicity rights, or that would otherwise create liability or violate any local, state, national or international law;</li>
+		<li>contains nudity, sexually explicit content or is otherwise obscene, pornographic, indecent, lewd, suggestive or sexually exploitative of minors;</li>
+		<li>may disparage any ethnic, racial, sexual or religious group by stereotypical depiction or is otherwise abusive or inflammatory;</li>
+		<li>depicts the use of illicit drugs;</li>
+		<li>contains offensive language or images or is otherwise objectionable;</li>
+		<li>incites violence or characterizes violence as acceptable, glamorous or desirable;</li>
+		<li>contains unsolicited promotions, political campaigning, advertising or solicitations, without our prior written consent;</li>
+		<li>contains private or personal information about another person, unless such person has agreed to the disclosure of this information;</li>
+		<li>contains viruses, corrupted data or other harmful, disruptive or destructive file viruses, cancel bots, Trojan horses, harmful code, flood pings, denial-of-service attacks, packet or IP spoofing, forged routing or electronic mail address information or similar methods or technology;</li>
+		<li>may infringe any patent, trademark, trade secret, copyright or other intellectual or proprietary right of any party. By posting Member Content, you represent and warrant that you have the lawful right to distribute and reproduce such Member Content; or</li>
+		<li>would constitute, encourage or provide instructions for a criminal offense or violate the rights of any third party. TimeSwappers is not responsible for any Member Content that you or other members post, transmit or store through the Services. We have no obligation to post Member Content from you or anyone else and we may, in our sole discretion, edit, remove or delete any Member Content without notice. If you become aware of Member Content that violates these Terms, you may notify of us such content by contacting <%= mail_to "help@timeswappers.com", "help@timeswappers.com" %>. Enforcement of these Terms, however, is solely in our discretion and the absence of enforcement in some instances does not waive of our right to enforce the Terms in other instances. In addition, these Terms do not create a private right of action on the part of any third party or any reasonable expectation that the Services will not contain any content that is prohibited by such rules.</li>
 	</ol>
 
 	<hr />
@@ -68,13 +90,13 @@
 	<h2>Member Conduct</h2>
 	<p>By accessing or using the Services, you agree to act responsibly, exercise good judgment and comply with the Safety Guidelines. In addition, you agree not to:</p>
 	<ol>
-		<li class="policy-list">use the Services in violation of any applicable law or regulation, including promoting or encouraging any illegal activity;</li>
-		<li class="policy-list">infringe the rights of any third party, including without limitation, intellectual property, privacy, publicity or contractual rights;</li>
-		<li class="policy-list">use the Services in any manner that could interfere with, disrupt, negatively affect or inhibit other members from fully enjoying the Services or that could damage, disable, overburden or impair the functioning of the Services in any manner;</li>
-		<li class="policy-list">use our Services in connection with the distribution of spam (which we define as unsolicited bulk e-mail or any other unsolicited messages of a commercial, religious, romantic, political or other nature not within the intended purposes of the Services);</li>
-		<li class="policy-list">stalk, intimidate, threaten or otherwise harass or cause discomfort to any other member of our Services;</li>
-		<li class="policy-list">collect or store any information about any other member other than as permitted on our Services; or</li>
-		<li class="policy-list">use our Services for any commercial purpose whatsoever.</li>
+		<li>use the Services in violation of any applicable law or regulation, including promoting or encouraging any illegal activity;</li>
+		<li>infringe the rights of any third party, including without limitation, intellectual property, privacy, publicity or contractual rights;</li>
+		<li>use the Services in any manner that could interfere with, disrupt, negatively affect or inhibit other members from fully enjoying the Services or that could damage, disable, overburden or impair the functioning of the Services in any manner;</li>
+		<li>use our Services in connection with the distribution of spam (which we define as unsolicited bulk e-mail or any other unsolicited messages of a commercial, religious, romantic, political or other nature not within the intended purposes of the Services);</li>
+		<li>stalk, intimidate, threaten or otherwise harass or cause discomfort to any other member of our Services;</li>
+		<li>collect or store any information about any other member other than as permitted on our Services; or</li>
+		<li>use our Services for any commercial purpose whatsoever.</li>
 	</ol>
 
 	<hr />
