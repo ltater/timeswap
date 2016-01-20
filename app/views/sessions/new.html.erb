@@ -1,25 +1,27 @@
 <%= provide(:title, "Log In") %>
 
-<div class="jumbotron">
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
-			
-			<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
+<div class="container-static">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h1>Login to TimeSwappers</h1>
+				<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
 
-			<%= form_for(:session, url: login_path) do |f| %>
+				<%= form_for(:session, url: login_path) do |f| %>
 
-				<%= f.label :email %>
-				<%= f.email_field :email, class: 'form-control' %>
+					<%= f.label :email %>
+					<%= f.email_field :email, class: 'form-control' %>
 
-				<%= f.label :password %>
-				<%= f.password_field :password, class: 'form-control' %>
+					<%= f.label :password %>
+					<%= f.password_field :password, class: 'form-control' %>
 
-			<% end %>
-			
-			<br />
+				<% end %>
+				
+				<br />
 
-			<div class="center-button">
-		        <%= link_to "Log In to TimeSwappers", give_or_get_help_path %>
+				<div class="center-button">
+			        <%= link_to "Log In to TimeSwappers", give_or_get_help_path, class: "btn btn-lg btn-primary" %>
+				</div>
 			</div>
 		</div>
 	</div>

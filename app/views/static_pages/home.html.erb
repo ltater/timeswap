@@ -1,7 +1,6 @@
 <% provide(:title, 'Home') %>
 
-
-<div class="row" id="start">
+<div class="row">
 	<div class="col-md-12 hero-background">
 		<div class="wrapper">
 			<div class="dynamic-row">
@@ -13,9 +12,6 @@
 						<div class="box-header">
 							<h3>Swap a little spare time for the services that you want.</h3>
 						</div>
-						<div class="box-content">
-							<%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -26,17 +22,28 @@
 <div class="row">
 	<div class="col-md-12 hero-navigation">
 		<ul class="navigation-row">
-			<li class="hero-navigation-li">Home</li>
-			<li class="hero-navigation-li">Events</li>
-			<li class="hero-navigation-li">Lessons</li>
-			<li class="hero-navigation-li">Wellness</li>
-			<li class="hero-navigation-li">More</li>
+			<li class="hero-navigation-li">Clean & Tidy</li>
+			<li class="hero-navigation-li">Helping Hand</li>
+			<li class="hero-navigation-li">Beauty & Fitness</li>
+			<li class="hero-navigation-li">Tutoring & Teaching</li>
+			<li class="hero-navigation-li">Business Services</li>
+			<li class="hero-navigation-li">Party & Entertainment</li>
 		</ul>
 	</div>
 </div>
 
+<div class="row below-hero">
+	<div class="col-md-6 col-md-offset-3 center">
+		<h1><strong>Tell us what you need. Get free quotes.</strong></h1>
+		<h1><strong>Choose the right pro for the job.</strong></h1>
+		<hr />
+		<h4>HOW TIMESWAPPERS WORKS</h4>
+	</div>
+</div>
 
-<div class="container" id="how">
+<br />
+
+<div class="container">
 	<div class="row below-hero">
 		<div class="col-md-12">
 	        <h1>How to TimeSwap</h1>
@@ -74,7 +81,7 @@
 			        	</div>
 			        </div>
 				    <div class="center-button">
-				        <%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
+				        <%= link_to "Begin TimeSwapping", signup_path, class: "btn btn-lg btn-primary" %>
 				    </div>
 				</div>
 			</div>
@@ -82,30 +89,19 @@
 	</div>
 </div>
 
+<br />
+
 <!-- Full Length -->
-<div class="row below-hero" id="what">
+<div class="row below-hero">
 	<div class="col-md-12 full-length-divider">
 		<div class="wrapper">
 			<div class="dynamic-row-divider">
-				<div class="copy">
-					<h1>What is TimeSwappers?</h1>
-				</div>
-				<div class="form-area">
-					<div class="box">
-						<div class="box-header">
-							<h3>It's simple to connect with members so you don't have to beg a friend for help, do-it-yourself, or go without.</h3>
-						</div>
-						<div class="box-content">
-							<%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="container" id="see">
+<div class="container">
 	<div class="row below-hero">
 		<div class="col-md-12">
 	        <h1>See it in Action</h1>
@@ -128,27 +124,18 @@
 			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
 			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
 			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    					<p>
-							        	<a class="btn btn-lg btn-primary" href="#" role="button">Contact &raquo;</a>
-							        </p>
 			    				</div>
 			    				<div class="col-md-4 offer">
 			    					<h3>Laundry</h3>
 			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
 			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
 			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    					<p>
-							        	<a class="btn btn-lg btn-primary" href="#" role="button">Contact &raquo;</a>
-							        </p>
 			    				</div>
 			    				<div class="col-md-4 offer">
 			    					<h3>Yard Work</h3>
 			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
 			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
 			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    					<p>
-							        	<a class="btn btn-lg btn-primary" href="#" role="button">Contact &raquo;</a>
-							        </p>
 			    				</div>
 				        	</div>
 				        </div>
@@ -163,27 +150,18 @@
 			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
 			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
 			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    					<p>
-							        	<a class="btn btn-lg btn-primary" href="#" role="button">Contact &raquo;</a>
-							        </p>
 			    				</div>
 			    				<div class="col-md-4 offer">
 			    					<h3>Laundry</h3>
 			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
 			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
 			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    					<p>
-							        	<a class="btn btn-lg btn-primary" href="#" role="button">Contact &raquo;</a>
-							        </p>
 			    				</div>
 			    				<div class="col-md-4 offer">
 			    					<h3>Yard Work</h3>
 			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
 			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
 			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    					<p>
-							        	<a class="btn btn-lg btn-primary" href="#" role="button">Contact &raquo;</a>
-							        </p>
 			    				</div>
 				        	</div>
 				        </div>
@@ -195,24 +173,51 @@
 </div>
 
 <!-- Full Length -->
-<div class="row below-hero" id="safe">
+<div class="row below-hero">
 	<div class="col-md-12 full-length-divider">
 		<div class="wrapper">
 			<div class="dynamic-row-divider">
-				<div class="copy">
-					<h1>Safe Swapping</h1>
-				</div>
-				<div class="form-area">
-					<div class="box">
-						<div class="box-header">
-							<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</h3>
+					<h1>Why Join TimeSwappers?</h1>
+					<br />
+					<div class="row">
+						<div class="col-md-4 box-header">
+							<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
+							<h3>You'll Save Money</h3>
+							<p>Use time as your currency and you'll save money on many of the services you already pay for.</p>
 						</div>
-						<div class="box-content">
-							<%= link_to "Begin Swapping", signup_path, class: "btn btn-lg btn-primary" %>
+						<div class="col-md-4 box-header">
+							<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+							<h3>Get The Help You Want</h3>
+							<p>Share what you're good at and get help from TimeSwappers who have a knack for the skills you lack.</p>
+						</div>
+						<div class="col-md-4 box-header">
+							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+							<h3>It's So Easy</h3>
+							<p>It's simple to connect with members so you don't have to beg a friend for help, do-it-yourself or go without.</p>
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-md-12">
+							<div class="center-button">
+								<%= link_to "Begin TimeSwapping", signup_path, class: "btn btn-lg btn-primary" %>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row below-hero wrapper">
+		<div class="col-md-6">
+			<h1>Want to learn more?</h1>
+			<h2>Meet Natalie!</h2>
+		</div>
+		<div class="col-md-6">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/rAmPq7cyb3A" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>

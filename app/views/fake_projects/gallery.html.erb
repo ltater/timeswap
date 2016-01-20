@@ -1,4 +1,4 @@
-<% provide(:title, 'My Projects') %>
+<% provide(:title, "Project Gallery") %>
 
 <div class="container-static">
 	<div class="container">
@@ -8,49 +8,21 @@
 			</div>
 
 			<div class="col-md-9">
-				<h1>My Projects</h1>
-				<div class="panel panel-primary">
-				<!-- Default panel contents -->
-					<div class="panel-heading">Pending Projects</div>
-						<!-- Table -->
-					<table class="table">
-						<tr>
-							<td class="transaction-heading">Project Name</td>
-							<td class="transaction-heading">Project Owner</td>
-							<td class="transaction-heading">Project Type</td>
-							<td class="transaction-heading">Time Credits</td>
-							<td class="transaction-heading">Date Completed</td>
-						</tr>
-						<tr>
-							<td>German Tutoring</td>
-							<td>Colleen W.</td>
-							<td>Give Help</td>
-							<td>1.00</td>
-							<td>12/15/15</td>
-						</tr>
-						<tr>
-							<td>Laundry</td>
-							<td>Frank C.</td>
-							<td>Get Help</td>
-							<td><span style="color: red;">(2.00)</td>
-							<td>12/18/15</td>
-						</tr>
-					</table>
-				</div>
-				<br />
-				<div class="row">
-					<div class="col-md-12">
-						<div>
+			<h1>Project Gallery</h1>
+	        <p>Use time as your currency and you'll save money on many of the services that you already pay for.</p>
+	        <br />
+			<div>
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#give-help" aria-controls="give-help" role="tab" data-toggle="tab">My Offers to Give Help</a></li>
-					<li role="presentation"><a href="#get-help" aria-controls="get-help" role="tab" data-toggle="tab">My Offers to Get Help</a></li>
+					<li role="presentation" class="active"><a href="#give-help" aria-controls="give-help" role="tab" data-toggle="tab">Give Help</a></li>
+					<li role="presentation"><a href="#get-help" aria-controls="get-help" role="tab" data-toggle="tab">Get Help</a></li>
 				</ul>
 
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="give-help">
 						<div class="row">
 				        	<div class="col-md-12">
-								<h3>My Offers to Give Help</h3>
+								<h3>Offers to Give Help</h3>
+								<%= link_to "Submit a Give Help Request", give_help_new_project_path, class: "btn btn-lg btn-primary" %>
 							</div>
 						</div>
 						<div class="row">
@@ -80,7 +52,8 @@
 					<div role="tabpanel" class="tab-pane" id="get-help">
 						<div class="row">
 				        	<div class="col-md-12">
-				        		<h3>My Offers to Get Help</h3>
+				        		<h3>Offers to Get Help</h3>
+				        		<%= link_to "Submit a Get Help Request", get_help_new_project_path, class: "btn btn-lg btn-primary" %>
 				        	</div>
 						</div>
 						<div class="row">
@@ -105,9 +78,6 @@
 			    				</div>
 				        	</div>
 				        </div>
-					</div>
-				</div>
-			</div>
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-12">
 		<!-- Fixed footer -->
-		<footer class="navbar navbar-default navbar-fixed-bottom">
+		<footer class="navbar navbar-default navbar-static-bottom" id="footer">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -20,10 +20,11 @@
 						<li class="footer-nav"><%= link_to 'Safety & Community Guidelines', safety_path %></li>
 						<li class="footer-nav"><%= link_to 'Terms of Service', terms_path %></li>
 					</ul>
-					<!-- <ul class="nav navbar-nav navbar-footer">
-						<li class="footer-nav"><a href="https://www.facebook.com/timeswappers/" target="_blank">Facebook</a></li>
-						<li class="footer-nav"><a href="https://twitter.com/TimeSwappers" target="_blank">Twitter</a></li>
-					</ul> -->
+					<ul class="nav navbar-nav navbar-footer">
+						<li class="footer-nav"><a href="https://www.facebook.com/timeswappers/" target="_blank"><%= image_tag("social-icons/facebook.png", class: "social") %></a></li>
+						<li class="footer-nav"><a href="https://twitter.com/TimeSwappers" target="_blank"><%= image_tag("social-icons/twitter.png", class: "social") %></a></li>
+						<li class="footer-nav"><a href="https://www.youtube.com/channel/UCoRiHvWxjIgEPr8tkdQ6t0g" target="_blank"><%= image_tag("social-icons/youtube.png", class: "social") %></a></li>
+					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
 		</footer>

@@ -29,5 +29,8 @@ class FakeProjectsController < ApplicationController
 
 	def submit_review
 	end
+
+	def gallery
+	end
 	
 end

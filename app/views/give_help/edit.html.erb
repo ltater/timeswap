@@ -1,42 +1,46 @@
 <% provide(:title, 'Edit Project') %>
 
-<div class="row">
-	<div class="col-md-3">
-		<%= render 'layouts/account_navigation' %>
-	</div>
+<div class="container-static">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<%= render 'layouts/account_navigation' %>
+			</div>
 
-	<div class="col-md-9">
+			<div class="col-md-9">
 
-			<h1>Edit Your Project: Give Help</h1>
-			
-			<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
-			
-			<%= form_for @give_help_project do |f| %>
+					<h1>Edit Your Project: Give Help</h1>
+					
+					<p>The information that you enter will not been saved in any way. You may simply hit submit to move forward.</p>
+					
+					<%= form_for @give_help_project do |f| %>
 
-				<%= f.label :name %>
-				<%= f.text_field :name, class: 'form-control' %>
+						<%= f.label :name %>
+						<%= f.text_field :name, class: 'form-control' %>
 
-				<%= f.label :category %>
-				<%= f.text_field :category, class: 'form-control' %>
+						<%= f.label :category %>
+						<%= f.text_field :category, class: 'form-control' %>
 
-				<%= f.label :sub_category %>
-				<%= f.text_field :sub_category, class: 'form-control' %>
+						<%= f.label :sub_category %>
+						<%= f.text_field :sub_category, class: 'form-control' %>
 
-				<%= f.label :description %>
-				<%= f.text_field :description, class: 'form-control' %>
+						<%= f.label :description %>
+						<%= f.text_field :description, class: 'form-control' %>
 
-				<%= f.label :hours %>
-				<%= f.text_field :hours, class: 'form-control' %>
+						<%= f.label :hours %>
+						<%= f.text_field :hours, class: 'form-control' %>
 
-				<%= f.label :additional_information %>
-				<%= f.text_field :additional_information, class: 'form-control' %>
-			<% end %>
+						<%= f.label :additional_information %>
+						<%= f.text_field :additional_information, class: 'form-control' %>
+					<% end %>
 
-			
-			<br />
+					
+					<br />
 
-			<div class="center-button">
-				<%= link_to "Save Changes", give_help_show_project_path, class: "btn btn-lg btn-primary" %>
+					<div class="center-button">
+						<%= link_to "Save Changes", give_help_show_project_path, class: "btn btn-lg btn-primary" %>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
