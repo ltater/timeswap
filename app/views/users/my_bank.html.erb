@@ -1,50 +1,54 @@
 <% provide(:title, 'My Time Bank') %>
 
-<div class="row">
-	<div class="col-md-3">
-		<%= render 'layouts/account_navigation' %>
-	</div>
+<div class="container-static">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<%= render 'layouts/account_navigation' %>
+			</div>
 
-	<div class="col-md-9">
-		<h1>My Time Bank</h1>
-		<ul class="list-group">
-			<li class="list-group-item">
-				<span class="badge">14.25</span>
-				Time Credits Earned
-			</li>
-			<li class="list-group-item">
-				<span class="badge">6.00</span>
-				Time Credits Spent
-			</li>
-		</ul>
+			<div class="col-md-9">
+				<h1>My Time Bank</h1>
+				<ul class="list-group">
+					<li class="list-group-item">
+						<span class="badge">14.25</span>
+						Time Credits Earned
+					</li>
+					<li class="list-group-item">
+						<span class="badge">6.00</span>
+						Time Credits Spent
+					</li>
+				</ul>
 
-		<div class="panel panel-primary">
-		<!-- Default panel contents -->
-			<div class="panel-heading">Transactions</div>
-				<!-- Table -->
-			<table class="table">
-				<tr>
-					<td class="transaction-heading">Project Name</td>
-					<td class="transaction-heading">Project Owner</td>
-					<td class="transaction-heading">Project Type</td>
-					<td class="transaction-heading">Time Credits</td>
-					<td class="transaction-heading">Date Completed</td>
-				</tr>
-				<tr>
-					<td>German Tutoring</td>
-					<td>Colleen W.</td>
-					<td>Give Help</td>
-					<td>1.00</td>
-					<td>12/15/15</td>
-				</tr>
-				<tr>
-					<td>Laundry</td>
-					<td>Frank C.</td>
-					<td>Get Help</td>
-					<td><span style="color: red;">(2.00)</td>
-					<td>12/18/15</td>
-				</tr>
-			</table>
+				<div class="panel panel-primary">
+				<!-- Default panel contents -->
+					<div class="panel-heading">Transactions</div>
+						<!-- Table -->
+					<table class="table">
+						<tr>
+							<td class="transaction-heading">Project Name</td>
+							<td class="transaction-heading">Project Owner</td>
+							<td class="transaction-heading">Project Type</td>
+							<td class="transaction-heading">Time Credits</td>
+							<td class="transaction-heading">Date Completed</td>
+						</tr>
+						<tr>
+							<td>German Tutoring</td>
+							<td>Colleen W.</td>
+							<td>Give Help</td>
+							<td>1.00</td>
+							<td>12/15/15</td>
+						</tr>
+						<tr>
+							<td>Laundry</td>
+							<td>Frank C.</td>
+							<td>Get Help</td>
+							<td><span style="color: red;">(2.00)</td>
+							<td>12/18/15</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

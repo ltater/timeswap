@@ -58,6 +58,7 @@ Rails.application.routes.draw do
   get 'project_contract' => 'fake_projects#project_contract'
   get 'project_signed' => 'fake_projects#project_signed'
   get 'submit_review' => 'fake_projects#submit_review'
+  get 'gallery' => 'fake_projects#gallery'
 
   # Fake User Routes
   get 'profile_1' => 'fake_users#profile_1'

@@ -1,24 +1,33 @@
 <% provide(:title, 'Get Started') %>
 
-<div class="jumbotron">
-	<h1>Give Help or Get Help</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non tortor sit amet velit cursus eleifend.</p>
-
-	<div class="row">
-		<div class="col-md-6 offer">
-			<h3><%= link_to "I want to get help", get_help_gallery_path %></h3>
-			<%= image_tag("placeholders/placeholder-person.jpg") %>
-			<p>Find, collaborate with, and pay an expert.</p>
-	        <div class="center-button">
-				<%= link_to "Get Help", get_help_gallery_path, class: "btn btn-lg btn-primary" %>
+<div class="container-static">
+	<div class="container">
+		<div class="row below-hero">
+			<div class="col-md-12 center" >
+				<h1>Let's get started!</h1>
+				<h2>First, tell us what you're looking for.</h2>
 			</div>
 		</div>
-		<div class="col-md-6 offer">
-			<h3><%= link_to "I want to give help", give_help_gallery_path %></h3>
-			<%= image_tag("placeholders/placeholder-person.jpg") %>
-			<p>Find projects and earn Time Credits.</p>
-	        <div class="center-button">
-				<%= link_to "Give Help", give_help_gallery_path, class: "btn btn-lg btn-primary" %>
+		<br />
+		<div class="row wrapper">
+			<div class="col-md-12">
+				<div class="col-md-5 center">
+					<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					<h3><strong>I want to hire a freelancer</strong></h3>
+					<p>Find, collaborate with, and pay an expert.</p>
+			        <div class="center-button">
+						<%= link_to "Get Help", get_help_new_project_path, class: "btn btn-lg btn-primary" %>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-5 center">
+					<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					<h3><strong>I'm looking for online work</strong></h3>
+					<p>Find freelance projects and grow your business.</p>
+			        <div class="center-button">
+						<%= link_to "Give Help", give_help_new_project_path, class: "btn btn-lg btn-primary" %>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

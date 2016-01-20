@@ -1,145 +1,149 @@
 <% provide(:title, 'Notifications') %>
 
-<div class="row">
-	<div class="col-md-3">
-		<%= render 'layouts/account_navigation' %>
-	</div>
+<div class="container-static">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<%= render 'layouts/account_navigation' %>
+			</div>
 
-	<div class="col-md-9">
-		<h1>Notifications</h1>
-		<div class="panel panel-primary">
-		<!-- Default panel contents -->
-			<div class="panel-heading">Projects to Give Help</div>
-				<!-- Table -->
-			<table class="table">
-				<tr>
-					<td class="transactin-heading"></td>
-					<td class="transaction-heading">Project Name</td>
-					<td class="transaction-heading">Project Owner</td>
-					<td class="transaction-heading">Time Credits</td>
-					<td class="transaction-heading">Date</td>
-					<td class="transaction-heading">Actions</td>
-					<td class="transaction-heading">Contract</td>
-				</tr>
-				<tr>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-success">New Message!</span>
-						<% end %>
-					</td>
-					<td>German Tutoring</td>
-					<td>Colleen W.</td>
-					<td>1.00</td>
-					<td>12/15/15</td>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-success">View</span>
-						<% end %>
-							<span class="label label-danger">Delete</span>
-					</td>
-					<td>Not Signed</td>
-				</tr>
-				<tr>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-info">In Progress</span>
-						<% end %>
-					</td>
-					<td>Laundry</td>
-					<td>Frank C.</td>
-					<td>2.00</td>
-					<td>12/15/15</td>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-success">View</span>
-						<% end %>
-							<span class="label label-danger">Delete</span>
-					</td>
-					<td><%= link_to "Signed", project_signed_path %></td>
-				</tr>
-			</table>
-		</div>
-		
-		<div class="panel panel-primary">
-		<!-- Default panel contents -->
-			<div class="panel-heading">Projects to Get Help</div>
-				<!-- Table -->
-			<table class="table">
-				<tr>
-					<td class="transactin-heading"></td>
-					<td class="transaction-heading">Project Name</td>
-					<td class="transaction-heading">Project Owner</td>
-					<td class="transaction-heading">Time Credits</td>
-					<td class="transaction-heading">Date</td>
-					<td class="transaction-heading">Actions</td>
-					<td class="transaction-heading">Contract</td>
-				</tr>
-				<tr>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-success">New Message!</span>
-						<% end %>
-					</td>
-					<td>Lawn Mowing</td>
-					<td>Colleen W.</td>
-					<td><span style="color: red;">(-1.00)</span></td>
-					<td>12/15/15</td>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-success">View</span>
-						<% end %>
-							<span class="label label-danger">Delete</span>
-					</td>
-					<td>Not Signed</td>
-				</tr>
-				<tr>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-danger">Pending</span>
-						<% end %>
-					</td>
-					<td>Proofreading</td>
-					<td>Frank C.</td>
-					<td><span style="color: red;">(-2.00)</span></td>
-					<td>12/15/15</td>
-					<td>
-						<%= link_to project_messages_path do %>
-							<span class="label label-success">View</span>
-						<% end %>
-							<span class="label label-danger">Delete</span>
-					</td>
-					<td>Signed</td>
-				</tr>
-			</table>
-		</div>
+			<div class="col-md-9">
+				<h1>Notifications</h1>
+				<div class="panel panel-primary">
+				<!-- Default panel contents -->
+					<div class="panel-heading">Projects to Give Help</div>
+						<!-- Table -->
+					<table class="table">
+						<tr>
+							<td class="transactin-heading"></td>
+							<td class="transaction-heading">Project Name</td>
+							<td class="transaction-heading">Project Owner</td>
+							<td class="transaction-heading">Time Credits</td>
+							<td class="transaction-heading">Date</td>
+							<td class="transaction-heading">Actions</td>
+							<td class="transaction-heading">Contract</td>
+						</tr>
+						<tr>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-success">New Message!</span>
+								<% end %>
+							</td>
+							<td>German Tutoring</td>
+							<td>Colleen W.</td>
+							<td>1.00</td>
+							<td>12/15/15</td>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-success">View</span>
+								<% end %>
+									<span class="label label-danger">Delete</span>
+							</td>
+							<td>Not Signed</td>
+						</tr>
+						<tr>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-info">In Progress</span>
+								<% end %>
+							</td>
+							<td>Laundry</td>
+							<td>Frank C.</td>
+							<td>2.00</td>
+							<td>12/15/15</td>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-success">View</span>
+								<% end %>
+									<span class="label label-danger">Delete</span>
+							</td>
+							<td><%= link_to "Signed", project_signed_path %></td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class="panel panel-primary">
+				<!-- Default panel contents -->
+					<div class="panel-heading">Projects to Get Help</div>
+						<!-- Table -->
+					<table class="table">
+						<tr>
+							<td class="transactin-heading"></td>
+							<td class="transaction-heading">Project Name</td>
+							<td class="transaction-heading">Project Owner</td>
+							<td class="transaction-heading">Time Credits</td>
+							<td class="transaction-heading">Date</td>
+							<td class="transaction-heading">Actions</td>
+							<td class="transaction-heading">Contract</td>
+						</tr>
+						<tr>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-success">New Message!</span>
+								<% end %>
+							</td>
+							<td>Lawn Mowing</td>
+							<td>Colleen W.</td>
+							<td><span style="color: red;">(-1.00)</span></td>
+							<td>12/15/15</td>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-success">View</span>
+								<% end %>
+									<span class="label label-danger">Delete</span>
+							</td>
+							<td>Not Signed</td>
+						</tr>
+						<tr>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-danger">Pending</span>
+								<% end %>
+							</td>
+							<td>Proofreading</td>
+							<td>Frank C.</td>
+							<td><span style="color: red;">(-2.00)</span></td>
+							<td>12/15/15</td>
+							<td>
+								<%= link_to project_messages_path do %>
+									<span class="label label-success">View</span>
+								<% end %>
+									<span class="label label-danger">Delete</span>
+							</td>
+							<td>Signed</td>
+						</tr>
+					</table>
+				</div>
 
-		<div class="panel panel-primary">
-		<!-- Default panel contents -->
-			<div class="panel-heading">Completed Projects</div>
-				<!-- Table -->
-			<table class="table">
-				<tr>
-					<td class="transaction-heading">Project Name</td>
-					<td class="transaction-heading">Project Owner</td>
-					<td class="transaction-heading">Project Type</td>
-					<td class="transaction-heading">Time Credits</td>
-					<td class="transaction-heading">Date</td>
-				</tr>
-				<tr>
-					<td>Lawn Mowing</td>
-					<td>Colleen W.</td>
-					<td>Give Help</td>
-					<td>1.00</td>
-					<td>12/15/15</td>
-				</tr>
-				<tr>
-					<td>Proofreading</td>
-					<td>Frank C.</td>
-					<td>Get Help</td>
-					<td><span style="color: red;">(-2.00)</span></td>
-					<td>12/15/15</td>
-				</tr>
-			</table>
+				<div class="panel panel-primary">
+				<!-- Default panel contents -->
+					<div class="panel-heading">Completed Projects</div>
+						<!-- Table -->
+					<table class="table">
+						<tr>
+							<td class="transaction-heading">Project Name</td>
+							<td class="transaction-heading">Project Owner</td>
+							<td class="transaction-heading">Project Type</td>
+							<td class="transaction-heading">Time Credits</td>
+							<td class="transaction-heading">Date</td>
+						</tr>
+						<tr>
+							<td>Lawn Mowing</td>
+							<td>Colleen W.</td>
+							<td>Give Help</td>
+							<td>1.00</td>
+							<td>12/15/15</td>
+						</tr>
+						<tr>
+							<td>Proofreading</td>
+							<td>Frank C.</td>
+							<td>Get Help</td>
+							<td><span style="color: red;">(-2.00)</span></td>
+							<td>12/15/15</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

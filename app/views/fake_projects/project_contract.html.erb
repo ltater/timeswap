@@ -1,42 +1,46 @@
 <% provide(:title, 'Contract') %>
 
-<div class="row">
-	<div class="col-md-3">
-		<%= render 'layouts/account_navigation' %>
-	</div>
-
-	<div class="col-md-9">
-		<h1>Contract Between Your Name and Frank C.</h1>
-
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				<h3 class="panel-title">Project Name</h3>
+<div class="container-static">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<%= render 'layouts/account_navigation' %>
 			</div>
-			<div class="panel-body">
-				<ul class="list-group">
-					<li class="list-group-item"><strong>Category:</strong> Cleaning</li>
-					<li class="list-group-item"><strong>Sub-Category:</strong> Homes</li>
-					<li class="list-group-item"><strong>Description:</strong> Nam dictum blandit ex eget egestas. Aliquam sapien augue, bibendum a pellentesque eget, semper at dui. Fusce ut sodales nibh. Maecenas nec venenatis ex, non egestas libero.</li>
-					<li class="list-group-item"><strong>Additional Information:</strong> Nam dictum blandit ex eget egestas. Aliquam sapien augue, bibendum a pellentesque eget, semper at dui. Fusce ut sodales nibh. Maecenas nec venenatis ex, non egestas libero.</li>
-				</ul>
+
+			<div class="col-md-9">
+				<h1>Contract Between Your Name and Frank C.</h1>
+
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Project Name</h3>
+					</div>
+					<div class="panel-body">
+						<ul class="list-group">
+							<li class="list-group-item"><strong>Category:</strong> Cleaning</li>
+							<li class="list-group-item"><strong>Sub-Category:</strong> Homes</li>
+							<li class="list-group-item"><strong>Description:</strong> Nam dictum blandit ex eget egestas. Aliquam sapien augue, bibendum a pellentesque eget, semper at dui. Fusce ut sodales nibh. Maecenas nec venenatis ex, non egestas libero.</li>
+							<li class="list-group-item"><strong>Additional Information:</strong> Nam dictum blandit ex eget egestas. Aliquam sapien augue, bibendum a pellentesque eget, semper at dui. Fusce ut sodales nibh. Maecenas nec venenatis ex, non egestas libero.</li>
+						</ul>
+						<div class="input-group">
+							<span class="input-group-addon"><strong>Agreed Upon Hours:</strong></span>
+							<input type="text" class="form-control" aria-label="Amount to the nearest dollar">
+							<span class="input-group-addon">hours</span>
+						</div>
+					</div>
+				</div>
 				<div class="input-group">
-					<span class="input-group-addon"><strong>Agreed Upon Hours:</strong></span>
-					<input type="text" class="form-control" aria-label="Amount to the nearest dollar">
-					<span class="input-group-addon">hours</span>
+					<span class="input-group-addon">
+						<input type="checkbox" aria-label="...">
+					</span>
+					<input type="text" value="Your Name agrees to the specifications of this contract." class="form-control" id="basic-url" aria-describedby="basic-addon3" readonly>
+				</div>
+
+				<br />
+
+				<div class="center-button">
+		        	<%= link_to "Submit", thankyou_contract_path, class: "btn btn-lg btn-primary" %> 
 				</div>
 			</div>
-		</div>
-		<div class="input-group">
-			<span class="input-group-addon">
-				<input type="checkbox" aria-label="...">
-			</span>
-			<input type="text" value="Your Name agrees to the specifications of this contract." class="form-control" id="basic-url" aria-describedby="basic-addon3" readonly>
-		</div>
-
-		<br />
-
-		<div class="center-button">
-        	<%= link_to "Submit", thankyou_contract_path, class: "btn btn-lg btn-primary" %> 
 		</div>
 	</div>
 </div>
