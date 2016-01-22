@@ -17,9 +17,12 @@
 //= require bootstrap
 //= require_tree .
 
-$(function() {
+
+var ready;
+
+ready = function() {
 	console.log("Ready!");
-	
+
 	$('.dropdown-toggle').dropdown();
 
 	$('#get-help').click(function (e) {
@@ -32,13 +35,8 @@ $(function() {
 	  $(this).tab('show');
 	})
 
-	// footer in the viewport
-	// var docHeight = $(window).height();
-	// var footerHeight = $('#footer').height();
-	// var footerTop = $('#footer').position().top + footerHeight;
+	$('.dropdown-toggle').dropdown();
+}
 
-	// if (footerTop < docHeight) {
-	// 	$('#footer').css('margin-top', (docHeight - footerTop) + 'px');
-	// }
-
-});
+$(document).ready(ready);
+$(document).on('page:load', ready);
