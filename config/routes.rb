@@ -26,6 +26,10 @@ Rails.application.routes.draw do
   get 'delete_my_profile' => 'users#delete_my_profile'
   get 'my_bank' => 'users#my_bank'
   get 'my_notifications' => 'users#my_notifications'
+  get 'my_system_notifications' => 'users#my_system_notifications'
+  get 'my_offers_to_help' => 'users#my_offers_to_help'
+  get 'my_requests_for_help' => 'users#my_offers_to_help'
+  get 'my_reviews' => 'users#my_reviews'
   resources :users
 
   # Login/Logout Routes
