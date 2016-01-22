@@ -2,18 +2,15 @@
 
 <div class="container-static">
 	<div class="container">
+		<%= render 'layouts/account_navigation' %>
 		<div class="row">
-			<div class="col-md-3">
-				<%= render 'layouts/account_navigation' %>
-			</div>
-
-			<div class="col-md-9">
+			<div class="col-md-12">
 				<div class="col-md-3 profile-glimpse">
-					<h2>George M.</h2>
+					<h2>Frank C.</h2>
 					<%= image_tag('placeholders/placeholder-person.jpg', class: "img-circle") %>
 					<%= image_tag('placeholders/five-stars.png', class: "five-star") %>
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."</p>
-					<%= link_to "View George's Profile", profile_1_path, class: "btn btn-lg btn-primary" %>
+					<%= link_to "View George's Profile", profile_2_path, class: "btn btn-lg btn-primary" %>
 				</div>
 				<div class="col-md-9">
 					<h2>Get Help: Cooking</h2>
@@ -28,7 +25,7 @@
 					<hr />
 
 					<div class="center-button">
-				        <%= link_to "Ping George for Help", thankyou_ping_path, class: "btn btn-lg btn-primary" %> 
+				        <%= link_to "Ping Frank for Help", thankyou_ping_path, class: "btn btn-lg btn-primary" %> 
 					</div>
 				</div>
 			</div>

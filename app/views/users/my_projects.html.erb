@@ -2,12 +2,10 @@
 
 <div class="container-static">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<%= render 'layouts/account_navigation' %>
-			</div>
+		<%= render 'layouts/account_navigation' %>
 
-			<div class="col-md-9">
+		<div class="row">
+			<div class="col-md-12">
 				<h1>My Projects</h1>
 				<div class="panel panel-primary">
 				<!-- Default panel contents -->
@@ -41,73 +39,73 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div>
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#give-help" aria-controls="give-help" role="tab" data-toggle="tab">My Offers to Give Help</a></li>
-					<li role="presentation"><a href="#get-help" aria-controls="get-help" role="tab" data-toggle="tab">My Offers to Get Help</a></li>
-				</ul>
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#give-help" aria-controls="give-help" role="tab" data-toggle="tab">My Offers to Give Help</a></li>
+								<li role="presentation"><a href="#get-help" aria-controls="get-help" role="tab" data-toggle="tab">My Offers to Get Help</a></li>
+							</ul>
 
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane active" id="give-help">
-						<div class="row">
-				        	<div class="col-md-12">
-								<h3>My Offers to Give Help</h3>
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="give-help">
+									<div class="row">
+							        	<div class="col-md-12">
+											<h3>My Offers to Give Help</h3>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+						    				<div class="col-md-4 offer">
+						    					<h3>German Tutoring</h3>
+						    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+						    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+						    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+						    				</div>
+						    				<div class="col-md-4 offer">
+						    					<h3>Laundry</h3>
+						    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+						    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+						    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+						    				</div>
+						    				<div class="col-md-4 offer">
+						    					<h3>Yard Work</h3>
+						    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+						    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+						    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+						    				</div>
+							        	</div>
+							        </div>
+						        </div>
+
+								<div role="tabpanel" class="tab-pane" id="get-help">
+									<div class="row">
+							        	<div class="col-md-12">
+							        		<h3>My Offers to Get Help</h3>
+							        	</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+						    				<div class="col-md-4 offer">
+						    					<h3>German Tutoring</h3>
+						    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+						    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+						    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+						    				</div>
+						    				<div class="col-md-4 offer">
+						    					<h3>Laundry</h3>
+						    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+						    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+						    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+						    				</div>
+						    				<div class="col-md-4 offer">
+						    					<h3>Yard Work</h3>
+						    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+						    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+						    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+						    				</div>
+							        	</div>
+							        </div>
+								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-12">
-			    				<div class="col-md-4 offer">
-			    					<h3>German Tutoring</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-			    				<div class="col-md-4 offer">
-			    					<h3>Laundry</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-			    				<div class="col-md-4 offer">
-			    					<h3>Yard Work</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-				        	</div>
-				        </div>
-			        </div>
-
-					<div role="tabpanel" class="tab-pane" id="get-help">
-						<div class="row">
-				        	<div class="col-md-12">
-				        		<h3>My Offers to Get Help</h3>
-				        	</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-			    				<div class="col-md-4 offer">
-			    					<h3>German Tutoring</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-			    				<div class="col-md-4 offer">
-			    					<h3>Laundry</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-			    				<div class="col-md-4 offer">
-			    					<h3>Yard Work</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-				        	</div>
-				        </div>
-					</div>
-				</div>
-			</div>
 					</div>
 				</div>
 			</div>
