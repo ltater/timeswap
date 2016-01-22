@@ -36,6 +36,8 @@ ready = function() {
 	})
 
 	$('.dropdown-toggle').dropdown();
+
+	$('[data-toggle="popover"]').popover()
 }
 
 $(document).ready(ready);
