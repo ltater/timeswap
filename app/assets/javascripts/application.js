@@ -34,10 +34,6 @@ ready = function() {
 	  e.preventDefault();
 	  $(this).tab('show');
 	})
-
-	$('.dropdown-toggle').dropdown();
-
-	$('[data-toggle="popover"]').popover()
 }
 
 $(document).ready(ready);

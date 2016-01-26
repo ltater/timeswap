@@ -124,7 +124,7 @@ body {
 
 /* Begin Thumbtack Styles */
 .hero-background {
-	background-image: url(http://www.jhjackson.com/wp-content/uploads/2009/01/Austonian5.jpg);
+	background-image: image-url("hero-image.jpg");
 	background-size: cover;
 	min-height: 400px;
 	text-align: center;
@@ -166,7 +166,7 @@ body {
     height: 41px;
 }
 
-.hero-navigation-li {
+#hero-navigation-li {
 	border-right: 1px solid #ebebeb;
     text-transform: uppercase;
     font-size: 11.9px;
@@ -175,13 +175,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
     width: 16%;
     float: left;
-    overflow: hidden;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    list-style: none;
 }
 
 /* End Thumbtack Styles */
+
+#hero-navigation-sub {
+	padding: 15px;
+	width: 100%;
+	font-size: 1em;
+}
 
 .below-hero {
 	margin-top: 25px;
