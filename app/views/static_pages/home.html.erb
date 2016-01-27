@@ -7,12 +7,12 @@
 		<div class="wrapper">
 			<div class="dynamic-row">
 				<div class="copy">
-					<h1>Welcome to the Time Economy!</h1>
+					<h1 class="white">Welcome to the Time Economy!</h1>
 				</div>
 				<div class="form-area">
 					<div class="box">
 						<div class="box-header">
-							<h3>Share what you’re good at and get the help you want in return.</h3>
+							<h3 class="white">Share what you’re good at and get the help you want in return.</h3>
 						</div>
 					</div>
 				</div>
@@ -87,10 +87,10 @@
 <div class="row below-hero">
 	<div class="col-md-6 col-md-offset-3 center">
 		<h1><strong>What is TimeSwappers?</strong></h1>
-		<h3>We’re a membership community where people exchange time as a currency instead of money.</h3>
-		<h3>By sharing what you’re good at, you’ll earn Time Credits and get the help you want from members you choose.</h3>
+		<h3 class="grey">We’re a membership community where people exchange time as a currency instead of money.</h3>
+		<h3 class="grey">By sharing what you’re good at, you’ll earn Time Credits and get the help you want from members you choose.</h3>
 		<hr />
-		<h4>Here’s How TimeSwappers Works</h4>
+		<h4 class="purple">Here’s How TimeSwappers Works</h4>
 	</div>
 </div>
 
@@ -99,63 +99,48 @@
 <div class="container">
 	<div class="row below-hero">
 		<div class="col-md-12">
-	        <h1>How to TimeSwap</h1>
-	        <div class="row">
-	        	<div class="col-md-12">
-			        <div class="row what-is-ts">
-				        <div class="col-md-6">
-				        	<h3 class="orange">1: Choose What You Have A Knack For</h3>
-				        	<p>We all have a knack for something!  Can you give someone a ride, paint a spare room or share some business skills?  It’s easy to share what you can do with someone who needs a little help.</p>
-				        </div>
-				        <div class="col-md-6">
-				        	<div class="placeholder"></div>
-				        </div>
-				    </div>
+	        <div class="row what-is-ts">
+		        <div class="col-md-6">
+		        	<h3 class="orange"><span class="number">1.</span> Choose What You Have A Knack For</h3>
+		        	<p class="number-copy">We all have a knack for something!  Can you give someone a ride, paint a spare room or share some business skills?  It’s easy to share what you can do with someone who needs a little help.</p>
+		        </div>
+		        <div class="col-md-6">
+		        	<div class="placeholder"></div>
+		        </div>
+		    </div>
 
-				    <div class="row what-is-ts">
-						<div class="col-md-6">
-							<div class="placeholder"></div>
-						</div>
-						<div class="col-md-6">
-							<h3 class="orange">2: Share What You’re Good At</h3>
-							<p>Share what you’re good at, either in-person or online.  In exchange, you’ll earn Time Credits that you can spend on the help you want from the members you choose.</p>
-						</div>
-					</div>
-
-					<div class="row what-is-ts">
-						<div class="col-md-6">
-			        		<h3 class="orange">3: Get The Help You Want</h3>
-			        		<p>From help around the house or a relaxing massage, to business services and more…Just say the word and members who have what you need will be there to help. </p>
-			        	</div>
-			        	<div class="col-md-6">
-			        		<div class="placeholder"></div>
-			        	</div>
-			        </div>
-				    <div class="center-button">
-				        <%= link_to "Start TimeSwapping!", signup_path, class: "btn btn-lg btn-primary" %>
-				    </div>
+		    <div class="row what-is-ts">
+				<div class="col-md-6">
+					<div class="placeholder"></div>
+				</div>
+				<div class="col-md-6">
+					<h3 class="orange"><span class="number">2.</span> Share What You’re Good At</h3>
+					<p class="number-copy">Share what you’re good at, either in-person or online.  In exchange, you’ll earn Time Credits that you can spend on the help you want from the members you choose.</p>
 				</div>
 			</div>
+
+			<div class="row what-is-ts">
+				<div class="col-md-6">
+	        		<h3 class="orange"><span class="number">3.</span> Get The Help You Want</h3>
+	        		<p class="number-copy">From help around the house or a relaxing massage, to business services and more…Just say the word and members who have what you need will be there to help. </p>
+	        	</div>
+	        	<div class="col-md-6">
+	        		<div class="placeholder"></div>
+	        	</div>
+	        </div>
+		    <div class="center-button">
+		        <%= link_to "Start TimeSwapping!", signup_path, class: "btn btn-lg btn-primary" %>
+		    </div>
 	  	</div>
 	</div>
 </div>
 
 <br />
 
-<!-- Full Length -->
-<div class="row below-hero">
-	<div class="col-md-12 full-length-divider">
-		<div class="wrapper">
-			<div class="dynamic-row-divider">
-			</div>
-		</div>
-	</div>
-</div>
-
 <div class="container">
 	<div class="row below-hero">
 		<div class="col-md-12">
-	        <h1>See it in Action</h1>
+	        <h1>See TimeSwapping In Action</h1>
 	        <br />
 			<div>
 				<ul class="nav nav-tabs" role="tablist">
@@ -293,7 +278,7 @@
 <!-- Full Length -->
 <div class="row below-hero">
 	<div class="col-md-12 full-length-divider">
-		<div class="wrapper">
+		<div class="wrapper-why-join">
 			<div class="dynamic-row-divider">
 					<h1>Why Join TimeSwappers?</h1>
 					<br />
@@ -314,14 +299,6 @@
 							<p>It's simple to connect with members so you don't have to beg a friend for help, do-it-yourself or go without.</p>
 						</div>
 					</div>
-					<br />
-					<div class="row">
-						<div class="col-md-12">
-							<div class="center-button">
-								<%= link_to "Begin TimeSwapping", signup_path, class: "btn btn-lg btn-primary" %>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -331,13 +308,16 @@
 <div class="container">
 	<div class="row below-hero wrapper-video">
 		<div class="col-md-12">
-			<div class="video">
+			<div class="video-text">
 				<h1>Want to learn more?</h1>
 				<h2>Meet Natalie!</h2>
 			</div>
 			<div class="video">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/rAmPq7cyb3A" frameborder="0" allowfullscreen></iframe>
 			</div>
+			<div class="center-button">
+		        <%= link_to "Start TimeSwapping!", signup_path, class: "btn btn-lg btn-primary" %>
+		    </div>
 		</div>
 	</div>
 </div>

@@ -23,6 +23,7 @@
 
 body {
 	font-family: Raleway;
+	color: #2F4F4F;
 }
 
 .container-static {
@@ -240,4 +241,42 @@ h1, h2, h3, h4, .orange {
 	display: inline-block;
 	padding: 20px;
 	vertical-align: middle;
+}
+
+.video-text {
+	display: inline-block;
+	padding: 20px 40px 20px 20px;
+	vertical-align: middle;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.grey {
+	color: #2F4F4F;
+}
+
+.purple {
+	color: #632777;
+}
+
+.number {
+	font-size: 2em;
+}
+
+.number-copy {
+	font-size: 1.5em;
+}
+
+.wrapper-why-join {
+	width: 950px;
+	margin: 0 auto;
+    position: relative;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.get-started {
+	font-size: 4em;
 }
