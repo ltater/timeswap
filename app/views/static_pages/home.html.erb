@@ -4,8 +4,8 @@
 
 <div class="row">
 	<div class="col-md-12 hero-background">
-		<div class="wrapper">
-			<div class="dynamic-row">
+		<div class="hero-wrapper">
+			<div class="hero-dynamic-row">
 				<div class="copy">
 					<h1 class="white">Welcome to the Time Economy!</h1>
 				</div>
@@ -140,139 +140,66 @@
 <div class="container">
 	<div class="row below-hero">
 		<div class="col-md-12">
-	        <h1>See TimeSwapping In Action</h1>
+	        <h1>Check Out Our TimeSwappers In Action</h1>
 	        <br />
-			<div>
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#give-help" aria-controls="give-help" role="tab" data-toggle="tab">Give Help</a></li>
-					<li role="presentation"><a href="#get-help" aria-controls="get-help" role="tab" data-toggle="tab">Get Help</a></li>
-				</ul>
-
-
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane active" id="give-help">
-						<div class="row">
-				        	<div class="col-md-12">
-				        		<h3>Offers to Give Help</h3>
-			    				<div class="col-md-3 offer">
-			    					<h3>Tax Preparation</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"April is coming and I need some help with my taxes. I own a small consulting business and have all my income and expenses in a spreadsheet. Just need help preparing the forms and making sure I get all the deductions right."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Party Chef</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"Are you a good cook? Can you help prepare dinner for 14? I’m having a party in 2 weeks (on Saturday the 12th) and need help that day preparing a feast! You don’t have to be a professional chef – just a good cook who is clean and reliable."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>House Cleaning</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"The in-laws finally left and I need a great cleaner! It’s a 3BR / 3BA house, 1600 sq feet, and it needs top-to-bottom cleaning, vacuuming and wood floors mopped. Anytime in the next week is fine – day or night up until 8pm."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Massage</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"I’m looking for a licensed massage therapist who does deep tissue work. Want a 1-hour massage this week – evening or anytime on the weekend, please."</p>
-			    				</div>
-			    			</div>
-			    		</div>
-			    		<div class="row">
-				        	<div class="col-md-12">
-			    				<div class="col-md-3 offer">
-			    					<h3>Assemble Furniture</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"I love IKEA but I’m useless at assembling the stuff! I’ve got a nightstand and a 4-drawer dresser that need to be put together. I’ve attached photos and descriptions of the furniture. Anytime in the next month is good.  Evenings or weekends preferred."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Spanish Lessons</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"Habla Espanol? I’m looking for a Spanish speaker to help me learn. I’m a total beginner, so I’d like to start with 3 hour-long sessions. Can meet anytime during the day or on Saturday mornings. I’m ideally looking for someone who has taught or tutored Spanish before."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Gardening</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Dog Watching</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-				        	</div>
-				        </div>
-			        </div>
-
-					<div role="tabpanel" class="tab-pane" id="get-help">
-						<div class="row">
-				        	<div class="col-md-12">
-				        		<h3>Offers to Get Help</h3>
-			    				<div class="col-md-3 offer">
-			    					<h3>Running Errands</h3>
-			    					<%= image_tag("profiles/profile-errands.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"Julia really helped me out in a pinch. I had a bunch of errands that had to be done right in the middle of a crunch week. At the end of a grueling workday, I’d have given anything for a hand, and Julia was just what I needed."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Personal Trainer</h3>
-			    					<%= image_tag("profiles/profile-trainer.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"I decided to make 2016 the year I get back in shape but wanted some help. I found Mike on TimeSwappers and he really motivated me. We did 3 training sessions and he gave me a bunch of new routines that have me going strong! So glad I started TimeSwapping – it’s awesome."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Getting Organized</h3>
-			    					<%= image_tag("profiles/profile-organized.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"Tara is a force of nature and just what I needed to get organized. She helped sort though old clothes, piles of books and junk in the garage. She even took a bag of donated clothing to Goodwill on her way home.  I should have done this months ago!" </p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Helping Hand</h3>
-			    					<%= image_tag("profiles/profile-handyman.png", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"Doug is the man! He built a great little deck in our backyard and was super friendly and professional.  I’ve wanted a deck for ages but thought I couldn’t afford it – TimeSwapper Doug built just what I hoped for."</p>
-			    				</div>
-				        	</div>
-				        </div>
-				        <div class="row">
-				        	<div class="col-md-12">
-			    				<div class="col-md-3 offer">
-			    					<h3>Party DJ</h3>
-			    					<%= image_tag("profiles/profile-dj.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"Rick lit the place up at my holiday party! He’s a great DJ and had everyone out on the floor – best bash I’ve ever had.  Having a DJ made the party so much better and it only cost me 3 Time Credits. Thanks, Rick!"</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Computer Help</h3>
-			    					<%= image_tag("profiles/profile-computer.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>"If you need a geek genius, call Blake. My computer died completely and I had no clue what to do. Blake replied to my TimeSwappers request and got me up and running with just 2 Time Credits. Great TimeSwapping experience."</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Makeup Application</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-			    				<div class="col-md-3 offer">
-			    					<h3>Web Development</h3>
-			    					<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
-			    					<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
-			    					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
-			    				</div>
-				        	</div>
-				        </div>
-					</div>
-				</div>
-			</div>
-	  	</div>
+	    </div>
 	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-3 offer">
+				<h3>Running Errands</h3>
+				<%= image_tag("profiles/profile-errands.jpg", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>"Julia really helped me out in a pinch. I had a bunch of errands that had to be done right in the middle of a crunch week. At the end of a grueling workday, I’d have given anything for a hand, and Julia was just what I needed."</p>
+			</div>
+			<div class="col-md-3 offer">
+				<h3>Personal Trainer</h3>
+				<%= image_tag("profiles/profile-trainer.jpg", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>"I decided to make 2016 the year I get back in shape but wanted some help. I found Mike on TimeSwappers and he really motivated me. We did 3 training sessions and he gave me a bunch of new routines that have me going strong! So glad I started TimeSwapping – it’s awesome."</p>
+			</div>
+			<div class="col-md-3 offer">
+				<h3>Getting Organized</h3>
+				<%= image_tag("profiles/profile-organized.jpg", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>"Tara is a force of nature and just what I needed to get organized. She helped sort though old clothes, piles of books and junk in the garage. She even took a bag of donated clothing to Goodwill on her way home.  I should have done this months ago!" </p>
+			</div>
+			<div class="col-md-3 offer">
+				<h3>Helping Hand</h3>
+				<%= image_tag("profiles/profile-handyman.png", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>"Doug is the man! He built a great little deck in our backyard and was super friendly and professional.  I’ve wanted a deck for ages but thought I couldn’t afford it – TimeSwapper Doug built just what I hoped for."</p>
+			</div>
+		</div>
+	</div>
+    <div class="row">
+    	<div class="col-md-12">
+			<div class="col-md-3 offer">
+				<h3>Party DJ</h3>
+				<%= image_tag("profiles/profile-dj.jpg", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>"Rick lit the place up at my holiday party! He’s a great DJ and had everyone out on the floor – best bash I’ve ever had.  Having a DJ made the party so much better and it only cost me 3 Time Credits. Thanks, Rick!"</p>
+			</div>
+			<div class="col-md-3 offer">
+				<h3>Computer Help</h3>
+				<%= image_tag("profiles/profile-computer.jpg", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>"If you need a geek genius, call Blake. My computer died completely and I had no clue what to do. Blake replied to my TimeSwappers request and got me up and running with just 2 Time Credits. Great TimeSwapping experience."</p>
+			</div>
+			<div class="col-md-3 offer">
+				<h3>Makeup Application</h3>
+				<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+			</div>
+			<div class="col-md-3 offer">
+				<h3>Web Development</h3>
+				<%= image_tag("placeholders/placeholder-person.jpg", class: "img-circle") %>
+				<%= image_tag("placeholders/five-stars.png", class: "five-star") %>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum hendrerit commodo.</p>
+			</div>
+    	</div>
+    </div>
 </div>
 
 <!-- Full Length -->
