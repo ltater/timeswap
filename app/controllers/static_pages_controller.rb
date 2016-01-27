@@ -32,5 +32,8 @@ class StaticPagesController < ApplicationController
 
 	def give_or_get_help
 	end
+
+	def account_settings
+	end
 	
 end

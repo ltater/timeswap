@@ -30,6 +30,7 @@ Rails.application.routes.draw do
   get 'my_offers_to_help' => 'users#my_offers_to_help'
   get 'my_requests_for_help' => 'users#my_offers_to_help'
   get 'my_reviews' => 'users#my_reviews'
+  get 'account_settings' => 'users#account_settings'
   resources :users
 
   # Login/Logout Routes
